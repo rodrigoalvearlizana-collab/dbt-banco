@@ -1,0 +1,82 @@
+user:
+  outputs:
+    default:
+      keyfile_json:
+        auth_provider_x509_cert_url: https://www.googleapis.com/oauth2/v1/certs
+        auth_uri: https://accounts.google.com/o/oauth2/auth
+        client_email: dbt-runner@mi-proyecto-dbt-nube.iam.gserviceaccount.com
+        client_id: '117442688233069763854'
+        client_x509_cert_url: https://www.googleapis.com/robot/v1/metadata/x509/dbt-runner%40mi-proyecto-dbt-nube.iam.gserviceaccount.com
+        private_key: '-----BEGIN PRIVATE KEY-----
+
+          MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDJ3Qhr9lXCo4j+
+
+          QEKS0pVqlB8f3FuqHBwYl5s2OgfHy9K1/JuAcXZ3PQUdf1cfvkF8HgEhGQY9dIZb
+
+          XIQwkFJfkAHEDu18An1JdD4DnTKtYD44+JgbSiPuaKXhpNjHBLn8NAm5dCAFRp7g
+
+          PFXTgEviv4vQoouR67nzCxHo/XRsEKm10hfghNCWysHrVrwv71TL7o4R55uKOyHJ
+
+          0z+7Mv/SpfQYMJ2RJ7R5ycjJCoQvcrxwhH1TNivvZcyyJYE9qKyaM1CLaV0r7W4S
+
+          7Co0KB9ie6olGyv3u1r1Y7kQw1LmOqzH4Ut2d+XDboooPll+aiX/U7lkSgLKvvVA
+
+          WkwBg7qfAgMBAAECggEAFPfUMZ63Xs3s43gaUjT0l0sGhqE1llBwLK/GzBWwDDVk
+
+          UEoKfweKJi2c8+jvzFjPZYyaUm1OhCCv+hp8kqzTGaEUReDFE14Q1InyDR8NjgvS
+
+          usk7x43meJO/M1aTu+yGQyfGoNBqqRGiXCl4Qs1vVIDQDZ5sv/4L5S6PsDNvne/X
+
+          msIylQH9/lqOMfPjoVj4E+WAlM94s9T8KV5R+sKuHWpNetUk8YmHtYlSB3GoxCIY
+
+          qb6KxfyiF1z+UqrYnaz1f5+w7YPdBd8Ten10KInerOKqM7/8eytDGJDb1aS8+ZSA
+
+          C8UmW/ujydV+j9UDVtGtT8e92gSaHDSgoZ+nCGsGuQKBgQD/zUGy6qhiajNhoLzm
+
+          XQq85zoL9Pxse+GmCst06y+kSPfNBCQHgLKXWLJI2vAWji6nvTTCK3K6H/HwDK1w
+
+          YTeIGvNXFkj4AwA02W44q6QlmbNCac+YCY3XvF7kr/ymJJre3UY3u7TUSeOx5QB6
+
+          2sGtwlGlHw0cUvh2iiWnRDtsNwKBgQDKBROWYp0VbklS7B0c+8Q3va+yES8K59pq
+
+          E7zZm3jcY8bmrHW9ZJUIGvEyK6zgElBBAXxZdHareok3AavpzpAMPQTzVr/EJIq4
+
+          qttGY/sLtmsj21P+KQpI9ZgAtwWQ0n3EPdtvJMp8M02lRqk1WGPQ1rM770ElFqGX
+
+          Wk5EDYMA2QKBgQDNE4RxaRlX1SaeRVxMHxmluobZ4S2h12tfT9YvRQHr5qfrkD9G
+
+          WJJVLcG5EPVcT97tkY3DgUu4FjZDqhY+O2Jm1pxyHCah1t4KgKqR+mFd16xUOTo5
+
+          /Kbf51/4XXLizAPxWlqaAf2GGDrYeux4kfqmUFxeUdeT9pzFhBmN0PEG3wKBgFQj
+
+          PyAwHBpT34gAvLNYjEVm5Cj2jTAulkH9zHaZEQJBMBLcmwDxRjyk8/WgSRTdq70X
+
+          QFIFdnM+yq01LgNnu4jNVSV/6MhpK7lzt3WeqG0dYYwCif3d2+G9H7yUfWXutOCp
+
+          np2wpgCKYXlHb6u/D3toICgDIo+u2EgwHU6sjfYpAoGAMr6cJEtHIViNlHD1pQe/
+
+          aXw8eRsC80MTqkpm2No2Ghna617Pgjy919NNv2LUSNu2/sIddBgFdpfo4/HhIYOL
+
+          N5hOG1gKOxkmSa28F9u/LHdcOuonwHTvBxJ4RUWragTG+jypICg0y1wJG51fdJeX
+
+          ULVdodSUZWmXmE4UT3CLWtk=
+
+          -----END PRIVATE KEY-----
+
+          '
+        private_key_id: aa46b0b19ab539fefdc3d2b9fecd84f942c4779b
+        project_id: mi-proyecto-dbt-nube
+        token_uri: https://oauth2.googleapis.com/token
+        type: service_account
+      method: service-account-json
+      project: mi-proyecto-dbt-nube
+      schema: ds_dbt_banco
+      scopes:
+      - https://www.googleapis.com/auth/bigquery
+      - https://www.googleapis.com/auth/cloud-platform
+      - https://www.googleapis.com/auth/drive
+      - https://www.googleapis.com/auth/userinfo.email
+      target_name: default
+      threads: 4
+      type: bigquery
+  target: default

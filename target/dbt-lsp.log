@@ -1,0 +1,1371 @@
+==================== 2026-07-23T20:20:13.967413Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-07-23T20:20:13.967524Z | efac85e9-08db-4186-97fd-74831b32d0f5 ====================
+20:20:13.967561 [info ]: Starting dbt LSP server
+20:20:13.967584 [info ]: Connecting to LSP client on port 38725
+20:20:13.967771 [info ]: Successfully connected to LSP client
+20:20:13.967790 [info ]: Creating LSP service...
+20:20:13.968574 [info ]: Creating LSP server...
+20:20:13.968589 [info ]: Starting LSP server...
+20:20:14.340521 [info ]: Started loading project
+20:20:14.340575 [info ]: Finished loading project [  0.00s]
+20:31:33.787424 [info ]: Loading profiles.yml
+20:31:33.980537 [info ]: Started loading project
+20:31:33.980858 [info ]: Loading profiles.yml
+20:31:33.986389 [debug]:    Started loading packages
+20:31:33.987043 [debug]:     Loaded [  0.00s] packages
+20:31:33.987657 [info ]: Finished loading project [  0.01s]
+20:31:33.987922 [info ]: Started parsing
+20:31:34.017501 [debug]: Finished parsing models/example/schema.yml [  0.00s]
+20:31:34.018499 [debug]: Finished parsing models/example/my_first_dbt_model.sql [  0.00s]
+20:31:34.019441 [debug]: Finished parsing models/example/my_second_dbt_model.sql [  0.00s]
+20:31:34.022105 [info ]: Finished parsing [  0.03s]
+20:31:34.022239 [info ]: Cached model count updated: 2 models (estimate)
+20:31:34.022251 [info ]: Cached model count updated: 2 models (accurate)
+20:31:34.022293 [info ]: Started scheduling
+20:31:34.022358 [info ]: Finished scheduling [  0.00s]
+20:31:34.022369 [debug]: Compilation - 0 nodes selected: {}
+20:31:34.022392 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+20:31:34.022406 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+20:31:34.022419 [info ]: Started scheduling
+20:31:34.022451 [info ]: Finished scheduling [  0.00s]
+20:31:34.028206 [debug]: No platform credentials found, skipping remote license
+20:31:34.028512 [info ]: Started building task graph
+20:31:34.028545 [info ]: Finished building task graph [  0.00s]
+20:31:34.032492 [info ]: Started scheduling
+20:31:34.032520 [info ]: Finished scheduling [  0.00s]
+20:31:34.032838 [info ]: Cached model count updated: 2 models (accurate)
+20:31:37.300907 [info ]: Started loading project
+20:31:37.301131 [info ]: Loading profiles.yml
+20:31:37.304115 [info ]: Started loading project
+20:31:37.304276 [info ]: Loading profiles.yml
+20:31:37.304296 [info ]: Finished loading project [  0.00s]
+20:31:37.309174 [debug]:    Started loading packages
+20:31:37.309657 [debug]:     Loaded [  0.00s] packages
+20:31:37.310223 [info ]: Finished loading project [  0.01s]
+20:31:37.310375 [info ]: Started parsing
+20:31:37.339787 [warn ]: [UnusedResourceConfigPath (dbt1097)]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+20:31:37.340508 [info ]: Cached model count updated: 0 models (estimate)
+20:31:37.340522 [info ]: Cached model count updated: 0 models (accurate)
+20:31:37.340539 [info ]: Started scheduling
+20:31:37.340563 [info ]: Finished scheduling [  0.00s]
+20:31:37.340576 [debug]: Compilation - 0 nodes selected: {}
+20:31:37.340592 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+20:31:37.340604 [info ]: Started scheduling
+20:31:37.340608 [info ]: Finished scheduling [  0.00s]
+20:31:37.341617 [info ]: Started building task graph
+20:31:37.341636 [info ]: Finished building task graph [  0.00s]
+20:31:37.344684 [info ]: Started scheduling
+20:31:37.344710 [info ]: Finished scheduling [  0.00s]
+20:31:37.345888 [info ]: Cached model count updated: 0 models (accurate)
+20:31:37.345926 [info ]: Finished parsing [  0.04s]
+==================== 2026-07-23T20:36:20.780948Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-07-23T20:36:20.781061Z | 2f0bd5e9-5e9a-4946-8c02-5da29494b01b ====================
+20:36:20.781083 [info ]: Starting dbt LSP server
+20:36:20.781107 [info ]: Connecting to LSP client on port 36553
+20:36:20.781361 [info ]: Successfully connected to LSP client
+20:36:20.781381 [info ]: Creating LSP service...
+20:36:20.782256 [info ]: Creating LSP server...
+20:36:20.782270 [info ]: Starting LSP server...
+20:36:21.360581 [info ]: Started loading project
+20:36:21.361218 [info ]: Loading profiles.yml
+20:36:21.367141 [debug]:    Started loading packages
+20:36:21.367840 [debug]:     Loaded [  0.00s] packages
+20:36:21.368487 [info ]: Finished loading project [  0.01s]
+20:36:21.368749 [info ]: Started parsing
+20:36:21.400690 [warn ]: [UnusedResourceConfigPath (dbt1097)]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+20:36:21.401596 [info ]: Cached model count updated: 0 models (estimate)
+20:36:21.401610 [info ]: Cached model count updated: 0 models (accurate)
+20:36:21.401646 [info ]: Started scheduling
+20:36:21.401704 [info ]: Finished scheduling [  0.00s]
+20:36:21.401722 [debug]: Compilation - 0 nodes selected: {}
+20:36:21.401744 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+20:36:21.401754 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+20:36:21.401761 [info ]: Started scheduling
+20:36:21.401770 [info ]: Finished scheduling [  0.00s]
+20:36:21.407623 [debug]: No platform credentials found, skipping remote license
+20:36:21.407897 [info ]: Started building task graph
+20:36:21.407926 [info ]: Finished building task graph [  0.00s]
+20:36:21.412074 [info ]: Started scheduling
+20:36:21.412108 [info ]: Finished scheduling [  0.00s]
+20:36:21.412466 [info ]: Cached model count updated: 0 models (accurate)
+20:36:21.412488 [info ]: Finished parsing [  0.04s]
+20:36:24.030500 [info ]: Started loading project
+20:36:24.030755 [info ]: Loading profiles.yml
+20:36:24.053520 [info ]: Cached model count updated: 0 models (estimate)
+20:36:24.053550 [info ]: Cached model count updated: 0 models (accurate)
+20:36:24.053564 [info ]: Started scheduling
+20:36:24.053589 [info ]: Finished scheduling [  0.00s]
+20:36:24.053604 [debug]: Compilation - 0 nodes selected: {}
+20:36:24.053619 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+20:36:24.054667 [info ]: Started building task graph
+20:36:24.054689 [info ]: Finished building task graph [  0.00s]
+20:36:24.057959 [info ]: Started scheduling
+20:36:24.057990 [info ]: Finished scheduling [  0.00s]
+20:36:24.058138 [info ]: Finished loading project [  0.03s]
+20:36:24.058379 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-07-23T20:37:27.653713Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-07-23T20:37:27.653820Z | c90fc996-8ecc-42b3-ac10-8cdfdeec1f59 ====================
+20:37:27.653837 [info ]: Starting dbt LSP server
+20:37:27.653856 [info ]: Connecting to LSP client on port 52041
+20:37:27.654120 [info ]: Successfully connected to LSP client
+20:37:27.654146 [info ]: Creating LSP service...
+20:37:27.655074 [info ]: Creating LSP server...
+20:37:27.655090 [info ]: Starting LSP server...
+20:37:28.090656 [info ]: Started loading project
+20:37:28.091271 [info ]: Loading profiles.yml
+20:37:28.097184 [debug]:    Started loading packages
+20:37:28.097876 [debug]:     Loaded [  0.00s] packages
+20:37:28.098544 [info ]: Finished loading project [  0.01s]
+20:37:28.098795 [info ]: Started parsing
+20:37:28.131221 [warn ]: [UnusedResourceConfigPath (dbt1097)]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_new_project.example
+20:37:28.132691 [info ]: Cached model count updated: 0 models (estimate)
+20:37:28.132709 [info ]: Cached model count updated: 0 models (accurate)
+20:37:28.132756 [info ]: Started scheduling
+20:37:28.132830 [info ]: Finished scheduling [  0.00s]
+20:37:28.132874 [debug]: Compilation - 0 nodes selected: {}
+20:37:28.132899 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+20:37:28.132916 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+20:37:28.132927 [info ]: Started scheduling
+20:37:28.132942 [info ]: Finished scheduling [  0.00s]
+20:37:28.139316 [debug]: No platform credentials found, skipping remote license
+20:37:28.139749 [info ]: Started building task graph
+20:37:28.139796 [info ]: Finished building task graph [  0.00s]
+20:37:28.146092 [info ]: Started scheduling
+20:37:28.146153 [info ]: Finished scheduling [  0.00s]
+20:37:28.146696 [info ]: Cached model count updated: 0 models (accurate)
+20:37:28.146738 [info ]: Finished parsing [  0.05s]
+20:37:30.710516 [info ]: Started loading project
+20:37:30.710757 [info ]: Loading profiles.yml
+20:37:30.733231 [info ]: Cached model count updated: 0 models (estimate)
+20:37:30.733259 [info ]: Cached model count updated: 0 models (accurate)
+20:37:30.733273 [info ]: Started scheduling
+20:37:30.733301 [info ]: Finished scheduling [  0.00s]
+20:37:30.733316 [debug]: Compilation - 0 nodes selected: {}
+20:37:30.733332 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+20:37:30.734450 [info ]: Started building task graph
+20:37:30.734472 [info ]: Finished building task graph [  0.00s]
+20:37:30.737884 [info ]: Started scheduling
+20:37:30.737923 [info ]: Finished scheduling [  0.00s]
+20:37:30.738072 [info ]: Finished loading project [  0.03s]
+20:37:30.738297 [info ]: Cached model count updated: 0 models (accurate)
+20:39:17.180564 [info ]: Loading profiles.yml
+20:41:34.551257 [info ]: Cached model count updated: 0 models (accurate)
+20:41:34.551376 [info ]: Waiting for lease on 'target' directory
+20:41:35.180331 [info ]: Started loading project
+20:41:35.180566 [info ]: Loading profiles.yml
+20:41:35.183808 [info ]: Started loading project
+20:41:35.183961 [info ]: Loading profiles.yml
+20:41:35.183989 [info ]: Finished loading project [  0.00s]
+20:41:35.188793 [debug]:    Started loading packages
+20:41:35.189208 [debug]:     Loaded [  0.00s] packages
+20:41:35.189758 [info ]: Finished loading project [  0.01s]
+20:41:35.189904 [info ]: Started parsing
+20:41:35.219453 [warn ]: [UnusedResourceConfigPath (dbt1097)]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mi_proyecto_banco.example
+20:41:35.220121 [info ]: Cached model count updated: 0 models (estimate)
+20:41:35.220134 [info ]: Cached model count updated: 0 models (accurate)
+20:41:35.220144 [info ]: Started scheduling
+20:41:35.220167 [info ]: Finished scheduling [  0.00s]
+20:41:35.220178 [debug]: Compilation - 0 nodes selected: {}
+20:41:35.220195 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+20:41:35.220205 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+20:41:35.220211 [info ]: Started scheduling
+20:41:35.220219 [info ]: Finished scheduling [  0.00s]
+20:41:35.221261 [info ]: Started building task graph
+20:41:35.221280 [info ]: Finished building task graph [  0.00s]
+20:41:35.224205 [info ]: Started scheduling
+20:41:35.224228 [info ]: Finished scheduling [  0.00s]
+20:41:35.225254 [info ]: Cached model count updated: 0 models (accurate)
+20:41:35.225292 [info ]: Finished parsing [  0.04s]
+20:41:36.990473 [info ]: Started loading project
+20:41:36.990714 [info ]: Loading profiles.yml
+20:41:37.013835 [info ]: Cached model count updated: 0 models (estimate)
+20:41:37.013861 [info ]: Cached model count updated: 0 models (accurate)
+20:41:37.013873 [info ]: Started scheduling
+20:41:37.013899 [info ]: Finished scheduling [  0.00s]
+20:41:37.013913 [debug]: Compilation - 0 nodes selected: {}
+20:41:37.013932 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+20:41:37.014872 [info ]: Started building task graph
+20:41:37.014893 [info ]: Finished building task graph [  0.00s]
+20:41:37.018431 [info ]: Started scheduling
+20:41:37.018459 [info ]: Finished scheduling [  0.00s]
+20:41:37.018621 [info ]: Finished loading project [  0.03s]
+20:41:37.018899 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-07-23T20:53:00.688968Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-07-23T20:53:00.689083Z | c1469db1-d708-45c7-ba2a-3ca85a808b0f ====================
+20:53:00.689105 [info ]: Starting dbt LSP server
+20:53:00.689125 [info ]: Connecting to LSP client on port 54445
+20:53:00.689350 [info ]: Successfully connected to LSP client
+20:53:00.689365 [info ]: Creating LSP service...
+20:53:00.690267 [info ]: Creating LSP server...
+20:53:00.690281 [info ]: Starting LSP server...
+20:53:04.721947 [info ]: Loading profiles.yml
+20:53:04.911931 [info ]: Waiting for lease on 'target' directory
+20:53:05.150496 [info ]: Started loading project
+20:53:05.150829 [info ]: Loading profiles.yml
+20:53:05.156270 [debug]:    Started loading packages
+20:53:05.156881 [debug]:     Loaded [  0.00s] packages
+20:53:05.157530 [info ]: Finished loading project [  0.01s]
+20:53:05.157816 [info ]: Started parsing
+20:53:05.189053 [warn ]: [UnusedResourceConfigPath (dbt1097)]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mi_proyecto_banco.example
+20:53:05.189823 [info ]: Cached model count updated: 0 models (estimate)
+20:53:05.189836 [info ]: Cached model count updated: 0 models (accurate)
+20:53:05.189881 [info ]: Started scheduling
+20:53:05.189931 [info ]: Finished scheduling [  0.00s]
+20:53:05.189945 [debug]: Compilation - 0 nodes selected: {}
+20:53:05.189966 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+20:53:05.189977 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+20:53:05.189983 [info ]: Started scheduling
+20:53:05.189991 [info ]: Finished scheduling [  0.00s]
+20:53:05.195703 [debug]: No platform credentials found, skipping remote license
+20:53:05.195960 [info ]: Started building task graph
+20:53:05.195986 [info ]: Finished building task graph [  0.00s]
+20:53:05.199958 [info ]: Started scheduling
+20:53:05.199989 [info ]: Finished scheduling [  0.00s]
+20:53:05.200300 [info ]: Cached model count updated: 0 models (accurate)
+20:53:05.200337 [info ]: Finished parsing [  0.04s]
+20:53:11.360351 [info ]: Started loading project
+20:53:11.360559 [info ]: Loading profiles.yml
+20:53:11.382051 [info ]: Cached model count updated: 0 models (estimate)
+20:53:11.382080 [info ]: Cached model count updated: 0 models (accurate)
+20:53:11.382105 [info ]: Started scheduling
+20:53:11.382134 [info ]: Finished scheduling [  0.00s]
+20:53:11.382148 [debug]: Compilation - 0 nodes selected: {}
+20:53:11.382164 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+20:53:11.383194 [info ]: Started building task graph
+20:53:11.383215 [info ]: Finished building task graph [  0.00s]
+20:53:11.386448 [info ]: Started scheduling
+20:53:11.386484 [info ]: Finished scheduling [  0.00s]
+20:53:11.386623 [info ]: Finished loading project [  0.03s]
+20:53:11.386849 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-07-23T21:00:23.079740Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-07-23T21:00:23.079850Z | ec43e3d4-238f-4a41-97a1-f9289291605d ====================
+21:00:23.079867 [info ]: Starting dbt LSP server
+21:00:23.079888 [info ]: Connecting to LSP client on port 53091
+21:00:23.080080 [info ]: Successfully connected to LSP client
+21:00:23.080098 [info ]: Creating LSP service...
+21:00:23.080876 [info ]: Creating LSP server...
+21:00:23.080890 [info ]: Starting LSP server...
+21:00:23.980852 [info ]: Loading profiles.yml
+21:00:24.350601 [info ]: Waiting for lease on 'target' directory
+21:00:24.750418 [info ]: Started loading project
+21:00:24.750722 [info ]: Loading profiles.yml
+21:00:24.757888 [debug]:    Started loading packages
+21:00:24.758812 [debug]:     Loaded [  0.00s] packages
+21:00:24.759856 [info ]: Finished loading project [  0.01s]
+21:00:24.760257 [info ]: Started parsing
+21:00:24.806323 [warn ]: [UnusedResourceConfigPath (dbt1097)]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mi_proyecto_banco.example
+21:00:24.807064 [info ]: Cached model count updated: 0 models (estimate)
+21:00:24.807078 [info ]: Cached model count updated: 0 models (accurate)
+21:00:24.807113 [info ]: Started scheduling
+21:00:24.807170 [info ]: Finished scheduling [  0.00s]
+21:00:24.807197 [debug]: Compilation - 0 nodes selected: {}
+21:00:24.807220 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+21:00:24.807230 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+21:00:24.807236 [info ]: Started scheduling
+21:00:24.807245 [info ]: Finished scheduling [  0.00s]
+21:00:24.813030 [debug]: No platform credentials found, skipping remote license
+21:00:24.813296 [info ]: Started building task graph
+21:00:24.813327 [info ]: Finished building task graph [  0.00s]
+21:00:24.817413 [info ]: Started scheduling
+21:00:24.817447 [info ]: Finished scheduling [  0.00s]
+21:00:24.817767 [info ]: Cached model count updated: 0 models (accurate)
+21:00:24.817789 [info ]: Finished parsing [  0.06s]
+21:00:27.670664 [info ]: Started loading project
+21:00:27.670921 [info ]: Loading profiles.yml
+21:00:27.692940 [info ]: Cached model count updated: 0 models (estimate)
+21:00:27.692968 [info ]: Cached model count updated: 0 models (accurate)
+21:00:27.692982 [info ]: Started scheduling
+21:00:27.693008 [info ]: Finished scheduling [  0.00s]
+21:00:27.693024 [debug]: Compilation - 0 nodes selected: {}
+21:00:27.693042 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+21:00:27.694144 [info ]: Started building task graph
+21:00:27.694165 [info ]: Finished building task graph [  0.00s]
+21:00:27.697658 [info ]: Started scheduling
+21:00:27.697693 [info ]: Finished scheduling [  0.00s]
+21:00:27.697787 [info ]: Finished loading project [  0.03s]
+21:00:27.698050 [info ]: Cached model count updated: 0 models (accurate)
+21:01:40.050389 [info ]: Started loading project
+21:01:40.050607 [info ]: Loading profiles.yml
+21:01:40.054095 [info ]: Started loading project
+21:01:40.054255 [info ]: Loading profiles.yml
+21:01:40.054275 [info ]: Finished loading project [  0.00s]
+21:01:40.059096 [debug]:    Started loading packages
+21:01:40.059539 [debug]:     Loaded [  0.00s] packages
+21:01:40.060116 [info ]: Finished loading project [  0.01s]
+21:01:40.060265 [info ]: Started parsing
+21:01:40.090045 [warn ]: [UnusedResourceConfigPath (dbt1097)]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mi_proyecto_banco1.example
+21:01:40.090733 [info ]: Cached model count updated: 0 models (estimate)
+21:01:40.090746 [info ]: Cached model count updated: 0 models (accurate)
+21:01:40.090761 [info ]: Started scheduling
+21:01:40.090786 [info ]: Finished scheduling [  0.00s]
+21:01:40.090801 [debug]: Compilation - 0 nodes selected: {}
+21:01:40.090818 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+21:01:40.090828 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+21:01:40.090839 [info ]: Started scheduling
+21:01:40.090845 [info ]: Finished scheduling [  0.00s]
+21:01:40.091893 [info ]: Started building task graph
+21:01:40.091912 [info ]: Finished building task graph [  0.00s]
+21:01:40.095482 [info ]: Started scheduling
+21:01:40.095510 [info ]: Finished scheduling [  0.00s]
+21:01:40.096793 [info ]: Cached model count updated: 0 models (accurate)
+21:01:40.096831 [info ]: Finished parsing [  0.04s]
+21:01:42.300551 [info ]: Started loading project
+21:01:42.300792 [info ]: Loading profiles.yml
+21:01:42.322436 [info ]: Cached model count updated: 0 models (estimate)
+21:01:42.322460 [info ]: Cached model count updated: 0 models (accurate)
+21:01:42.322473 [info ]: Started scheduling
+21:01:42.322505 [info ]: Finished scheduling [  0.00s]
+21:01:42.322519 [debug]: Compilation - 0 nodes selected: {}
+21:01:42.322535 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+21:01:42.323524 [info ]: Started building task graph
+21:01:42.323546 [info ]: Finished building task graph [  0.00s]
+21:01:42.326563 [info ]: Started scheduling
+21:01:42.326590 [info ]: Finished scheduling [  0.00s]
+21:01:42.326786 [info ]: Finished loading project [  0.03s]
+21:01:42.327042 [info ]: Cached model count updated: 0 models (accurate)
+21:02:00.660497 [info ]: Started loading project
+21:02:00.660713 [info ]: Loading profiles.yml
+21:02:00.663755 [info ]: Started loading project
+21:02:00.663930 [info ]: Loading profiles.yml
+21:02:00.663962 [info ]: Finished loading project [  0.00s]
+21:02:00.669916 [debug]:    Started loading packages
+21:02:00.670463 [debug]:     Loaded [  0.00s] packages
+21:02:00.671093 [info ]: Finished loading project [  0.01s]
+21:02:00.671263 [info ]: Started parsing
+21:02:00.697457 [warn ]: [UnusedResourceConfigPath (dbt1097)]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mi_proyecto_banco.example
+21:02:00.698386 [info ]: Cached model count updated: 0 models (estimate)
+21:02:00.698401 [info ]: Cached model count updated: 0 models (accurate)
+21:02:00.698419 [info ]: Started scheduling
+21:02:00.698486 [info ]: Finished scheduling [  0.00s]
+21:02:00.698500 [debug]: Compilation - 0 nodes selected: {}
+21:02:00.698520 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+21:02:00.698532 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+21:02:00.698539 [info ]: Started scheduling
+21:02:00.698548 [info ]: Finished scheduling [  0.00s]
+21:02:00.699809 [info ]: Started building task graph
+21:02:00.699830 [info ]: Finished building task graph [  0.00s]
+21:02:00.703652 [info ]: Started scheduling
+21:02:00.703688 [info ]: Finished scheduling [  0.00s]
+21:02:00.705128 [info ]: Cached model count updated: 0 models (accurate)
+21:02:00.705176 [info ]: Finished parsing [  0.03s]
+21:02:02.470482 [info ]: Started loading project
+21:02:02.470703 [info ]: Loading profiles.yml
+21:02:02.488082 [info ]: Cached model count updated: 0 models (estimate)
+21:02:02.488111 [info ]: Cached model count updated: 0 models (accurate)
+21:02:02.488125 [info ]: Started scheduling
+21:02:02.488151 [info ]: Finished scheduling [  0.00s]
+21:02:02.488166 [debug]: Compilation - 0 nodes selected: {}
+21:02:02.488184 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+21:02:02.489223 [info ]: Started building task graph
+21:02:02.489245 [info ]: Finished building task graph [  0.00s]
+21:02:02.492839 [info ]: Started scheduling
+21:02:02.492879 [info ]: Finished scheduling [  0.00s]
+21:02:02.493035 [info ]: Finished loading project [  0.02s]
+21:02:02.493269 [info ]: Cached model count updated: 0 models (accurate)
+21:04:33.550768 [info ]: Started loading project
+21:04:33.551100 [info ]: Loading profiles.yml
+21:04:33.556033 [info ]: Started loading project
+21:04:33.556265 [info ]: Loading profiles.yml
+21:04:33.556282 [info ]: Finished loading project [  0.01s]
+21:04:33.564995 [debug]:    Started loading packages
+21:04:33.565667 [debug]:     Loaded [  0.00s] packages
+21:04:33.566529 [info ]: Finished loading project [  0.01s]
+21:04:33.566787 [info ]: Started parsing
+21:04:33.599008 [warn ]: [UnusedResourceConfigPath (dbt1097)]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mi_proyecto_banco.example
+21:04:33.599575 [info ]: Cached model count updated: 0 models (estimate)
+21:04:33.599587 [info ]: Cached model count updated: 0 models (accurate)
+21:04:33.599599 [info ]: Started scheduling
+21:04:33.599625 [info ]: Finished scheduling [  0.00s]
+21:04:33.599637 [debug]: Compilation - 0 nodes selected: {}
+21:04:33.599652 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+21:04:33.599661 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+21:04:33.599668 [info ]: Started scheduling
+21:04:33.599676 [info ]: Finished scheduling [  0.00s]
+21:04:33.600259 [info ]: Started building task graph
+21:04:33.600277 [info ]: Finished building task graph [  0.00s]
+21:04:33.603089 [info ]: Started scheduling
+21:04:33.603116 [info ]: Finished scheduling [  0.00s]
+21:04:33.604472 [info ]: Cached model count updated: 0 models (accurate)
+21:04:33.604508 [info ]: Finished parsing [  0.04s]
+21:04:35.500522 [info ]: Started loading project
+21:04:35.500734 [info ]: Loading profiles.yml
+21:04:35.517143 [info ]: Cached model count updated: 0 models (estimate)
+21:04:35.517166 [info ]: Cached model count updated: 0 models (accurate)
+21:04:35.517178 [info ]: Started scheduling
+21:04:35.517205 [info ]: Finished scheduling [  0.00s]
+21:04:35.517219 [debug]: Compilation - 0 nodes selected: {}
+21:04:35.517235 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+21:04:35.518073 [info ]: Started building task graph
+21:04:35.518094 [info ]: Finished building task graph [  0.00s]
+21:04:35.520938 [info ]: Started scheduling
+21:04:35.520965 [info ]: Finished scheduling [  0.00s]
+21:04:35.521121 [info ]: Finished loading project [  0.02s]
+21:04:35.521378 [info ]: Cached model count updated: 0 models (accurate)
+21:04:42.240492 [info ]: Started loading project
+21:04:42.240703 [info ]: Loading profiles.yml
+21:04:42.243705 [info ]: Started loading project
+21:04:42.243862 [info ]: Loading profiles.yml
+21:04:42.243882 [info ]: Finished loading project [  0.00s]
+21:04:42.248784 [debug]:    Started loading packages
+21:04:42.249221 [debug]:     Loaded [  0.00s] packages
+21:04:42.249829 [info ]: Finished loading project [  0.01s]
+21:04:42.249982 [info ]: Started parsing
+21:04:42.275859 [warn ]: [UnusedResourceConfigPath (dbt1097)]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mi_proyecto_banco.example
+21:04:42.276605 [info ]: Cached model count updated: 0 models (estimate)
+21:04:42.276619 [info ]: Cached model count updated: 0 models (accurate)
+21:04:42.276630 [info ]: Started scheduling
+21:04:42.276658 [info ]: Finished scheduling [  0.00s]
+21:04:42.276673 [debug]: Compilation - 0 nodes selected: {}
+21:04:42.276689 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+21:04:42.276698 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+21:04:42.276705 [info ]: Started scheduling
+21:04:42.276714 [info ]: Finished scheduling [  0.00s]
+21:04:42.277444 [info ]: Started building task graph
+21:04:42.277464 [info ]: Finished building task graph [  0.00s]
+21:04:42.280981 [info ]: Started scheduling
+21:04:42.281015 [info ]: Finished scheduling [  0.00s]
+21:04:42.282186 [info ]: Cached model count updated: 0 models (accurate)
+21:04:42.282229 [info ]: Finished parsing [  0.03s]
+21:04:44.031032 [info ]: Started loading project
+21:04:44.031240 [info ]: Loading profiles.yml
+21:04:44.049065 [info ]: Cached model count updated: 0 models (estimate)
+21:04:44.049098 [info ]: Cached model count updated: 0 models (accurate)
+21:04:44.049115 [info ]: Started scheduling
+21:04:44.049151 [info ]: Finished scheduling [  0.00s]
+21:04:44.049168 [debug]: Compilation - 0 nodes selected: {}
+21:04:44.049189 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+21:04:44.050728 [info ]: Started building task graph
+21:04:44.050761 [info ]: Finished building task graph [  0.00s]
+21:04:44.056069 [info ]: Started scheduling
+21:04:44.056116 [info ]: Finished scheduling [  0.00s]
+21:04:44.056431 [info ]: Finished loading project [  0.03s]
+21:04:44.056823 [info ]: Cached model count updated: 0 models (accurate)
+21:07:03.910464 [info ]: Loading profiles.yml
+21:07:04.140572 [info ]: Started loading project
+21:07:04.140823 [info ]: Loading profiles.yml
+21:07:04.164301 [info ]: Finished loading project [  0.02s]
+21:07:04.164645 [info ]: Cached model count updated: 0 models (accurate)
+21:07:05.890653 [info ]: Started loading project
+21:07:05.890868 [info ]: Loading profiles.yml
+21:07:05.907233 [info ]: Cached model count updated: 0 models (estimate)
+21:07:05.907254 [info ]: Cached model count updated: 0 models (accurate)
+21:07:05.907266 [info ]: Started scheduling
+21:07:05.907289 [info ]: Finished scheduling [  0.00s]
+21:07:05.907302 [debug]: Compilation - 0 nodes selected: {}
+21:07:05.907317 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+21:07:05.908096 [info ]: Started building task graph
+21:07:05.908116 [info ]: Finished building task graph [  0.00s]
+21:07:05.910976 [info ]: Started scheduling
+21:07:05.911001 [info ]: Finished scheduling [  0.00s]
+21:07:05.911173 [info ]: Finished loading project [  0.02s]
+21:07:05.911385 [info ]: Cached model count updated: 0 models (accurate)
+21:07:27.780533 [info ]: Started loading project
+21:07:27.780749 [info ]: Loading profiles.yml
+21:07:27.783934 [info ]: Started loading project
+21:07:27.784098 [info ]: Loading profiles.yml
+21:07:27.784132 [info ]: Finished loading project [  0.00s]
+21:07:27.789121 [debug]:    Started loading packages
+21:07:27.789651 [debug]:     Loaded [  0.00s] packages
+21:07:27.790243 [info ]: Finished loading project [  0.01s]
+21:07:27.790396 [info ]: Started parsing
+21:07:27.813565 [debug]: Finished parsing models/example/schema.yml [  0.00s]
+21:07:27.814882 [debug]: Finished parsing models/example/my_first_dbt_model.sql [  0.00s]
+21:07:27.815716 [debug]: Finished parsing models/example/my_second_dbt_model.sql [  0.00s]
+21:07:27.818472 [info ]: Finished parsing [  0.03s]
+21:07:27.818585 [info ]: Cached model count updated: 2 models (estimate)
+21:07:27.818601 [info ]: Cached model count updated: 2 models (accurate)
+21:07:27.818613 [info ]: Started scheduling
+21:07:27.818688 [info ]: Finished scheduling [  0.00s]
+21:07:27.818699 [debug]: Compilation - 0 nodes selected: {}
+21:07:27.818718 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+21:07:27.818733 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+21:07:27.818740 [info ]: Started scheduling
+21:07:27.818766 [info ]: Finished scheduling [  0.00s]
+21:07:27.819525 [info ]: Started building task graph
+21:07:27.819572 [info ]: Finished building task graph [  0.00s]
+21:07:27.822886 [info ]: Started scheduling
+21:07:27.822918 [info ]: Finished scheduling [  0.00s]
+21:07:27.824500 [info ]: Cached model count updated: 2 models (accurate)
+21:07:29.730978 [info ]: Started loading project
+21:07:29.731185 [info ]: Loading profiles.yml
+21:07:29.748419 [info ]: Cached model count updated: 2 models (estimate)
+21:07:29.748443 [info ]: Cached model count updated: 2 models (accurate)
+21:07:29.748461 [info ]: Started scheduling
+21:07:29.748506 [info ]: Finished scheduling [  0.00s]
+21:07:29.748521 [debug]: Compilation - 2 nodes selected: {"model.mi_proyecto_banco.my_first_dbt_model", "model.mi_proyecto_banco.my_second_dbt_model"}
+21:07:29.749441 [info ]: Started building task graph
+21:07:29.749506 [info ]: Finished building task graph [  0.00s]
+21:07:29.750188 [info ]: Started rendering (2 nodes)
+21:07:29.750210 [info ]: Started model ds_dbt_banco.my_second_dbt_model
+21:07:29.750223 [debug]: Started rendering model ds_dbt_banco.my_second_dbt_model
+21:07:29.750248 [info ]: Started model ds_dbt_banco.my_first_dbt_model
+21:07:29.750257 [debug]: Started rendering model ds_dbt_banco.my_first_dbt_model
+21:07:29.750278 [info ]: Finished loading project [  0.02s]
+21:07:29.750921 [debug]: Compiled SQL for node model.mi_proyecto_banco.my_second_dbt_model at target/.lsp/compiled/mi_proyecto_banco/models/example/my_second_dbt_model.sql
+21:07:29.750944 [debug]: Compiled SQL for node model.mi_proyecto_banco.my_first_dbt_model at target/.lsp/compiled/mi_proyecto_banco/models/example/my_first_dbt_model.sql
+21:07:29.751014 [debug]: Finished rendering [  0.00s] model ds_dbt_banco.my_second_dbt_model [success]
+21:07:29.751028 [info ]:  Succeeded [-------] model ds_dbt_banco.my_second_dbt_model (table1)
+21:07:29.751045 [debug]: Finished rendering [  0.00s] model ds_dbt_banco.my_first_dbt_model [success]
+21:07:29.751054 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+21:07:29.751078 [info ]: Started analyzing (1 nodes)
+21:07:29.751085 [debug]: Started analyzing model ds_dbt_banco.my_first_dbt_model
+21:07:29.755127 [debug]: Finished analyzing [  0.00s] model ds_dbt_banco.my_first_dbt_model [success]
+21:07:29.755149 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+21:07:29.755155 [info ]:  Succeeded [  0.00s] model ds_dbt_banco.my_first_dbt_model (table)
+21:07:29.758282 [info ]: Started scheduling
+21:07:29.758318 [info ]: Finished scheduling [  0.00s]
+21:07:29.758815 [info ]: Cached model count updated: 2 models (accurate)
+21:07:33.720542 [info ]: Started loading project
+21:07:33.720761 [info ]: Loading profiles.yml
+21:07:33.723984 [info ]: Started loading project
+21:07:33.724161 [info ]: Loading profiles.yml
+21:07:33.724183 [info ]: Finished loading project [  0.00s]
+21:07:33.729677 [debug]:    Started loading packages
+21:07:33.730199 [debug]:     Loaded [  0.00s] packages
+21:07:33.730805 [info ]: Finished loading project [  0.01s]
+21:07:33.730953 [info ]: Started parsing
+21:07:33.755322 [debug]: Finished parsing models/example/schema.yml [  0.00s]
+21:07:33.756537 [debug]: Finished parsing models/example/my_first_dbt_model.sql [  0.00s]
+21:07:33.757000 [debug]: Finished parsing models/example/my_second_dbt_model.sql [  0.00s]
+21:07:33.759284 [info ]: Finished parsing [  0.03s]
+21:07:33.759386 [info ]: Cached model count updated: 2 models (estimate)
+21:07:33.759399 [info ]: Cached model count updated: 2 models (accurate)
+21:07:33.759412 [info ]: Started scheduling
+21:07:33.759441 [info ]: Finished scheduling [  0.00s]
+21:07:33.759451 [debug]: Compilation - 0 nodes selected: {}
+21:07:33.759468 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+21:07:33.759482 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+21:07:33.759488 [info ]: Started scheduling
+21:07:33.759513 [info ]: Finished scheduling [  0.00s]
+21:07:33.760737 [info ]: Started building task graph
+21:07:33.760757 [info ]: Finished building task graph [  0.00s]
+21:07:33.764096 [info ]: Started scheduling
+21:07:33.764127 [info ]: Finished scheduling [  0.00s]
+21:07:33.765436 [info ]: Cached model count updated: 2 models (accurate)
+21:07:35.610388 [info ]: Started loading project
+21:07:35.610632 [info ]: Loading profiles.yml
+21:07:35.632974 [info ]: Cached model count updated: 2 models (estimate)
+21:07:35.633000 [info ]: Cached model count updated: 2 models (accurate)
+21:07:35.633017 [info ]: Started scheduling
+21:07:35.633062 [info ]: Finished scheduling [  0.00s]
+21:07:35.633078 [debug]: Compilation - 2 nodes selected: {"model.mi_proyecto_banco.my_first_dbt_model", "model.mi_proyecto_banco.my_second_dbt_model"}
+21:07:35.634192 [info ]: Started building task graph
+21:07:35.634233 [info ]: Finished building task graph [  0.00s]
+21:07:35.634894 [info ]: Started rendering (2 nodes)
+21:07:35.634918 [info ]: Started model ds_dbt_banco.my_second_dbt_model
+21:07:35.634930 [debug]: Started rendering model ds_dbt_banco.my_second_dbt_model
+21:07:35.634951 [info ]: Started model ds_dbt_banco.my_first_dbt_model
+21:07:35.634959 [debug]: Started rendering model ds_dbt_banco.my_first_dbt_model
+21:07:35.634983 [info ]: Finished loading project [  0.02s]
+21:07:35.640888 [debug]: Compiled SQL for node model.mi_proyecto_banco.my_first_dbt_model at target/.lsp/compiled/mi_proyecto_banco/models/example/my_first_dbt_model.sql
+21:07:35.640897 [debug]: Compiled SQL for node model.mi_proyecto_banco.my_second_dbt_model at target/.lsp/compiled/mi_proyecto_banco/models/example/my_second_dbt_model.sql
+21:07:35.641008 [debug]: Finished rendering [  0.01s] model ds_dbt_banco.my_first_dbt_model [success]
+21:07:35.641038 [info ]: Started analyzing (2 nodes)
+21:07:35.641050 [debug]: Started analyzing model ds_dbt_banco.my_first_dbt_model
+21:07:35.641076 [debug]: Finished rendering [  0.01s] model ds_dbt_banco.my_second_dbt_model [success]
+21:07:35.641085 [info ]: Finished rendering [  0.01s] (2 nodes, 0 skipped, 0 errors)
+21:07:35.641093 [debug]: Started analyzing model ds_dbt_banco.my_second_dbt_model
+21:07:35.641295 [debug]: Finished analyzing [  0.00s] model ds_dbt_banco.my_first_dbt_model [success]
+21:07:35.641316 [info ]:  Succeeded [  0.01s] model ds_dbt_banco.my_first_dbt_model (table)
+21:07:35.642563 [debug]: Finished analyzing [  0.00s] model ds_dbt_banco.my_second_dbt_model [success]
+21:07:35.642581 [info ]: Finished analyzing [  0.00s] (2 nodes, 0 skipped, 0 errors)
+21:07:35.642590 [info ]:  Succeeded [  0.01s] model ds_dbt_banco.my_second_dbt_model (table)
+21:07:35.645656 [info ]: Started scheduling
+21:07:35.645693 [info ]: Finished scheduling [  0.00s]
+21:07:35.645981 [info ]: Cached model count updated: 2 models (accurate)
+21:20:47.920415 [info ]: Loading profiles.yml
+21:20:48.780435 [info ]: Started loading project
+21:20:48.780650 [info ]: Loading profiles.yml
+21:20:48.799095 [info ]: Finished loading project [  0.02s]
+21:20:48.799408 [info ]: Cached model count updated: 2 models (accurate)
+21:20:50.780765 [info ]: Started loading project
+21:20:50.780976 [info ]: Loading profiles.yml
+21:20:50.784200 [info ]: Started loading project
+21:20:50.784356 [info ]: Loading profiles.yml
+21:20:50.784374 [info ]: Finished loading project [  0.00s]
+21:20:50.789423 [info ]:    Started resolving packages from packages.yml
+21:20:50.789454 [info ]:   Finished [  0.00s] resolving packages from packages.yml
+21:20:50.789498 [debug]:    Started loading packages
+21:20:50.790018 [debug]:     Loaded [  0.00s] packages
+21:20:50.790610 [info ]: Finished loading project [  0.01s]
+21:20:50.790782 [info ]: Started parsing
+21:20:50.814377 [debug]: Finished parsing models/example/schema.yml [  0.00s]
+21:20:50.815305 [debug]: Finished parsing models/example/my_first_dbt_model.sql [  0.00s]
+21:20:50.815813 [debug]: Finished parsing models/example/my_second_dbt_model.sql [  0.00s]
+21:20:50.819524 [info ]: Finished parsing [  0.03s]
+21:20:50.819719 [info ]: Cached model count updated: 2 models (estimate)
+21:20:50.819736 [info ]: Cached model count updated: 2 models (accurate)
+21:20:50.819756 [info ]: Started scheduling
+21:20:50.819812 [info ]: Finished scheduling [  0.00s]
+21:20:50.819829 [debug]: Compilation - 2 nodes selected: {"model.mi_proyecto_banco.my_first_dbt_model", "model.mi_proyecto_banco.my_second_dbt_model"}
+21:20:50.819851 [info ]: Started scheduling
+21:20:50.819875 [info ]: Finished scheduling [  0.00s]
+21:20:50.821016 [info ]: Started building task graph
+21:20:50.821067 [info ]: Finished building task graph [  0.00s]
+21:20:50.821819 [info ]: Started rendering (2 nodes)
+21:20:50.821850 [info ]: Started model ds_dbt_banco.my_second_dbt_model
+21:20:50.821868 [debug]: Started rendering model ds_dbt_banco.my_second_dbt_model
+21:20:50.821901 [info ]: Started model ds_dbt_banco.my_first_dbt_model
+21:20:50.821913 [debug]: Started rendering model ds_dbt_banco.my_first_dbt_model
+21:20:50.822439 [debug]: Compiled SQL for node model.mi_proyecto_banco.my_first_dbt_model at target/.lsp/compiled/mi_proyecto_banco/models/example/my_first_dbt_model.sql
+21:20:50.822520 [debug]: Finished rendering [  0.00s] model ds_dbt_banco.my_first_dbt_model [success]
+21:20:50.822550 [info ]: Started analyzing (2 nodes)
+21:20:50.822562 [debug]: Started analyzing model ds_dbt_banco.my_first_dbt_model
+21:20:50.822571 [debug]: Compiled SQL for node model.mi_proyecto_banco.my_second_dbt_model at target/.lsp/compiled/mi_proyecto_banco/models/example/my_second_dbt_model.sql
+21:20:50.822666 [debug]: Finished rendering [  0.00s] model ds_dbt_banco.my_second_dbt_model [success]
+21:20:50.822683 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+21:20:50.822699 [debug]: Started analyzing model ds_dbt_banco.my_second_dbt_model
+21:20:50.822740 [debug]: Finished analyzing [  0.00s] model ds_dbt_banco.my_first_dbt_model [success]
+21:20:50.822754 [info ]:  Succeeded [-------] model ds_dbt_banco.my_first_dbt_model (table)
+21:20:50.822891 [debug]: Finished analyzing [  0.00s] model ds_dbt_banco.my_second_dbt_model [success]
+21:20:50.822903 [info ]: Finished analyzing [  0.00s] (2 nodes, 0 skipped, 0 errors)
+21:20:50.822913 [info ]:  Succeeded [-------] model ds_dbt_banco.my_second_dbt_model (table)
+21:20:50.825724 [info ]: Started scheduling
+21:20:50.825755 [info ]: Finished scheduling [  0.00s]
+21:20:50.827149 [info ]: Cached model count updated: 2 models (accurate)
+21:21:01.890449 [info ]: Started loading project
+21:21:01.890687 [info ]: Loading profiles.yml
+21:21:01.893947 [info ]: Started loading project
+21:21:01.894119 [info ]: Loading profiles.yml
+21:21:01.894137 [info ]: Finished loading project [  0.00s]
+21:21:01.899030 [info ]:    Started resolving packages from packages.yml
+21:21:01.923954 [info ]:   Finished [  0.02s] resolving packages from packages.yml (1 items)
+21:21:01.923998 [info ]: Auto installing dependencies while running `dbt compile`. To ensure dependencies are cached, run `dbt deps` to initialize a valid package-lock.yml.
+21:21:01.924009 [info ]: Installing packages
+21:21:01.924236 [info ]: Installing dbt-labs/dbt_external_tables
+21:21:01.993381 [info ]:  Installed dbt-labs/dbt_external_tables: 0.9.0
+21:21:01.993415 [info ]:  Installed 1 package
+21:21:01.993445 [warn ]: [PackageVersionMismatch (dbt1080)]: Package 'dbt_external_tables' may not be compatible with your dbt version: Manually verified by dbt as incompatible with this dbt version. See hub.getdbt.com for details. Check Package Hub (https://hub.getdbt.com) for compatible versions or contact the package maintainer.
+21:21:01.993462 [info ]: Updated version available for dbt_external_tables@0.9.0: 0.12.2
+21:21:01.993531 [debug]:    Started loading packages
+21:21:01.994993 [debug]:     Loaded [  0.00s] packages
+21:21:01.995594 [info ]: Finished loading project [  0.10s]
+21:21:01.995772 [info ]: Started parsing
+21:21:02.028601 [debug]: Finished parsing models/example/schema.yml [  0.00s]
+21:21:02.029397 [debug]: Finished parsing models/example/my_first_dbt_model.sql [  0.00s]
+21:21:02.029780 [debug]: Finished parsing models/example/my_second_dbt_model.sql [  0.00s]
+21:21:02.032148 [info ]: Finished parsing [  0.04s]
+21:21:02.032254 [info ]: Cached model count updated: 2 models (estimate)
+21:21:02.032266 [info ]: Cached model count updated: 2 models (accurate)
+21:21:02.032279 [info ]: Started scheduling
+21:21:02.032307 [info ]: Finished scheduling [  0.00s]
+21:21:02.032317 [debug]: Compilation - 0 nodes selected: {}
+21:21:02.032375 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+21:21:02.032389 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+21:21:02.032407 [info ]: Started scheduling
+21:21:02.032431 [info ]: Finished scheduling [  0.00s]
+21:21:02.053405 [info ]: Started building task graph
+21:21:02.053433 [info ]: Finished building task graph [  0.00s]
+21:21:02.057598 [info ]: Started scheduling
+21:21:02.057638 [info ]: Finished scheduling [  0.00s]
+21:21:02.058034 [info ]: Cached model count updated: 2 models (accurate)
+21:21:04.511040 [info ]: Started loading project
+21:21:04.511254 [info ]: Loading profiles.yml
+21:21:04.530838 [info ]: Cached model count updated: 2 models (estimate)
+21:21:04.530868 [info ]: Cached model count updated: 2 models (accurate)
+21:21:04.530886 [info ]: Started scheduling
+21:21:04.530930 [info ]: Finished scheduling [  0.00s]
+21:21:04.530945 [debug]: Compilation - 2 nodes selected: {"model.mi_proyecto_banco.my_first_dbt_model", "model.mi_proyecto_banco.my_second_dbt_model"}
+21:21:04.551582 [info ]: Started building task graph
+21:21:04.551639 [info ]: Finished building task graph [  0.00s]
+21:21:04.552655 [info ]: Started rendering (2 nodes)
+21:21:04.552682 [info ]: Started model ds_dbt_banco.my_second_dbt_model
+21:21:04.552695 [debug]: Started rendering model ds_dbt_banco.my_second_dbt_model
+21:21:04.552720 [info ]: Started model ds_dbt_banco.my_first_dbt_model
+21:21:04.552727 [debug]: Started rendering model ds_dbt_banco.my_first_dbt_model
+21:21:04.552759 [info ]: Finished loading project [  0.04s]
+21:21:04.553298 [debug]: Compiled SQL for node model.mi_proyecto_banco.my_first_dbt_model at target/.lsp/compiled/mi_proyecto_banco/models/example/my_first_dbt_model.sql
+21:21:04.553366 [debug]: Compiled SQL for node model.mi_proyecto_banco.my_second_dbt_model at target/.lsp/compiled/mi_proyecto_banco/models/example/my_second_dbt_model.sql
+21:21:04.553390 [debug]: Finished rendering [  0.00s] model ds_dbt_banco.my_first_dbt_model [success]
+21:21:04.553420 [info ]: Started analyzing (2 nodes)
+21:21:04.553431 [debug]: Started analyzing model ds_dbt_banco.my_first_dbt_model
+21:21:04.553455 [debug]: Finished rendering [  0.00s] model ds_dbt_banco.my_second_dbt_model [success]
+21:21:04.553463 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+21:21:04.553470 [debug]: Started analyzing model ds_dbt_banco.my_second_dbt_model
+21:21:04.553620 [debug]: Finished analyzing [  0.00s] model ds_dbt_banco.my_first_dbt_model [success]
+21:21:04.553641 [info ]:  Succeeded [-------] model ds_dbt_banco.my_first_dbt_model (table)
+21:21:04.553684 [debug]: Finished analyzing [  0.00s] model ds_dbt_banco.my_second_dbt_model [success]
+21:21:04.553696 [info ]: Finished analyzing [  0.00s] (2 nodes, 0 skipped, 0 errors)
+21:21:04.553702 [info ]:  Succeeded [-------] model ds_dbt_banco.my_second_dbt_model (table)
+21:21:04.557646 [info ]: Started scheduling
+21:21:04.557683 [info ]: Finished scheduling [  0.00s]
+21:21:04.558162 [info ]: Cached model count updated: 2 models (accurate)
+21:25:05.460627 [info ]: Started loading project
+21:25:05.460855 [info ]: Loading profiles.yml
+21:25:05.464149 [info ]: Started loading project
+21:25:05.464312 [info ]: Loading profiles.yml
+21:25:05.464349 [info ]: Finished loading project [  0.00s]
+21:25:05.469910 [info ]: Loading packages.yml
+21:25:05.469992 [debug]:    Started loading packages
+21:25:05.472326 [debug]:     Loaded [  0.00s] packages
+21:25:05.473319 [info ]: Finished loading project [  0.01s]
+21:25:05.473620 [info ]: Started parsing
+21:25:05.512590 [debug]: Finished parsing models/example/schema.yml [  0.00s]
+21:25:05.513387 [debug]: Finished parsing models/example/my_first_dbt_model.sql [  0.00s]
+21:25:05.513760 [debug]: Finished parsing models/example/my_second_dbt_model.sql [  0.00s]
+21:25:05.515886 [info ]: Finished parsing [  0.04s]
+21:25:05.515988 [info ]: Cached model count updated: 2 models (estimate)
+21:25:05.515999 [info ]: Cached model count updated: 2 models (accurate)
+21:25:05.516011 [info ]: Started scheduling
+21:25:05.516038 [info ]: Finished scheduling [  0.00s]
+21:25:05.516048 [debug]: Compilation - 0 nodes selected: {}
+21:25:05.516060 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+21:25:05.516074 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+21:25:05.516129 [info ]: Started scheduling
+21:25:05.516154 [info ]: Finished scheduling [  0.00s]
+21:25:05.535801 [info ]: Started building task graph
+21:25:05.535832 [info ]: Finished building task graph [  0.00s]
+21:25:05.540421 [info ]: Started scheduling
+21:25:05.540461 [info ]: Finished scheduling [  0.00s]
+21:25:05.542247 [info ]: Cached model count updated: 2 models (accurate)
+21:25:07.690747 [info ]: Started loading project
+21:25:07.690988 [info ]: Loading profiles.yml
+21:25:07.714416 [info ]: Cached model count updated: 2 models (estimate)
+21:25:07.714439 [info ]: Cached model count updated: 2 models (accurate)
+21:25:07.714455 [info ]: Started scheduling
+21:25:07.714500 [info ]: Finished scheduling [  0.00s]
+21:25:07.714515 [debug]: Compilation - 2 nodes selected: {"model.mi_proyecto_banco.my_first_dbt_model", "model.mi_proyecto_banco.my_second_dbt_model"}
+21:25:07.734319 [info ]: Started building task graph
+21:25:07.734370 [info ]: Finished building task graph [  0.00s]
+21:25:07.735287 [info ]: Started rendering (2 nodes)
+21:25:07.735311 [info ]: Started model ds_dbt_banco.my_second_dbt_model
+21:25:07.735323 [debug]: Started rendering model ds_dbt_banco.my_second_dbt_model
+21:25:07.735347 [info ]: Started model ds_dbt_banco.my_first_dbt_model
+21:25:07.735355 [debug]: Started rendering model ds_dbt_banco.my_first_dbt_model
+21:25:07.735389 [info ]: Finished loading project [  0.04s]
+21:25:07.735967 [debug]: Compiled SQL for node model.mi_proyecto_banco.my_second_dbt_model at target/.lsp/compiled/mi_proyecto_banco/models/example/my_second_dbt_model.sql
+21:25:07.735968 [debug]: Compiled SQL for node model.mi_proyecto_banco.my_first_dbt_model at target/.lsp/compiled/mi_proyecto_banco/models/example/my_first_dbt_model.sql
+21:25:07.736069 [debug]: Finished rendering [  0.00s] model ds_dbt_banco.my_first_dbt_model [success]
+21:25:07.736098 [info ]: Started analyzing (2 nodes)
+21:25:07.736111 [debug]: Started analyzing model ds_dbt_banco.my_first_dbt_model
+21:25:07.736136 [debug]: Finished rendering [  0.00s] model ds_dbt_banco.my_second_dbt_model [success]
+21:25:07.736145 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+21:25:07.736152 [debug]: Started analyzing model ds_dbt_banco.my_second_dbt_model
+21:25:07.736308 [debug]: Finished analyzing [  0.00s] model ds_dbt_banco.my_first_dbt_model [success]
+21:25:07.736326 [info ]:  Succeeded [-------] model ds_dbt_banco.my_first_dbt_model (table)
+21:25:07.736347 [debug]: Finished analyzing [  0.00s] model ds_dbt_banco.my_second_dbt_model [success]
+21:25:07.736358 [info ]: Finished analyzing [  0.00s] (2 nodes, 0 skipped, 0 errors)
+21:25:07.736366 [info ]:  Succeeded [-------] model ds_dbt_banco.my_second_dbt_model (table)
+21:25:07.739425 [info ]: Started scheduling
+21:25:07.739458 [info ]: Finished scheduling [  0.00s]
+21:25:07.739993 [info ]: Cached model count updated: 2 models (accurate)
+21:25:11.992997 [info ]: Started loading project
+21:25:11.993240 [info ]: Loading profiles.yml
+21:25:11.996447 [info ]: Started loading project
+21:25:11.996609 [info ]: Loading profiles.yml
+21:25:11.996777 [info ]: Finished loading project [  0.00s]
+21:25:12.001632 [info ]: Loading packages.yml
+21:25:12.001693 [debug]:    Started loading packages
+21:25:12.002985 [debug]:     Loaded [  0.00s] packages
+21:25:12.003559 [info ]: Finished loading project [  0.01s]
+21:25:12.003729 [info ]: Started parsing
+21:25:12.031629 [debug]: Finished parsing models/example/schema.yml [  0.00s]
+21:25:12.032457 [debug]: Finished parsing models/example/my_first_dbt_model.sql [  0.00s]
+21:25:12.032860 [debug]: Finished parsing models/example/my_second_dbt_model.sql [  0.00s]
+21:25:12.035099 [info ]: Finished parsing [  0.03s]
+21:25:12.035209 [info ]: Cached model count updated: 2 models (estimate)
+21:25:12.035221 [info ]: Cached model count updated: 2 models (accurate)
+21:25:12.035239 [info ]: Started scheduling
+21:25:12.035265 [info ]: Finished scheduling [  0.00s]
+21:25:12.035284 [debug]: Compilation - 0 nodes selected: {}
+21:25:12.035301 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+21:25:12.035314 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+21:25:12.035346 [info ]: Started scheduling
+21:25:12.035369 [info ]: Finished scheduling [  0.00s]
+21:25:12.055005 [info ]: Started building task graph
+21:25:12.055037 [info ]: Finished building task graph [  0.00s]
+21:25:12.059499 [info ]: Started scheduling
+21:25:12.059565 [info ]: Finished scheduling [  0.00s]
+21:25:12.061478 [info ]: Cached model count updated: 2 models (accurate)
+21:25:13.940689 [info ]: Started loading project
+21:25:13.940914 [info ]: Loading profiles.yml
+21:25:13.960010 [info ]: Cached model count updated: 2 models (estimate)
+21:25:13.960035 [info ]: Cached model count updated: 2 models (accurate)
+21:25:13.960052 [info ]: Started scheduling
+21:25:13.960097 [info ]: Finished scheduling [  0.00s]
+21:25:13.960113 [debug]: Compilation - 2 nodes selected: {"model.mi_proyecto_banco.my_first_dbt_model", "model.mi_proyecto_banco.my_second_dbt_model"}
+21:25:13.979862 [info ]: Started building task graph
+21:25:13.979912 [info ]: Finished building task graph [  0.00s]
+21:25:13.980804 [info ]: Started rendering (2 nodes)
+21:25:13.980830 [info ]: Started model ds_dbt_banco.my_second_dbt_model
+21:25:13.980843 [debug]: Started rendering model ds_dbt_banco.my_second_dbt_model
+21:25:13.980867 [info ]: Started model ds_dbt_banco.my_first_dbt_model
+21:25:13.980875 [debug]: Started rendering model ds_dbt_banco.my_first_dbt_model
+21:25:13.980906 [info ]: Finished loading project [  0.04s]
+21:25:13.981461 [debug]: Compiled SQL for node model.mi_proyecto_banco.my_first_dbt_model at target/.lsp/compiled/mi_proyecto_banco/models/example/my_first_dbt_model.sql
+21:25:13.981470 [debug]: Compiled SQL for node model.mi_proyecto_banco.my_second_dbt_model at target/.lsp/compiled/mi_proyecto_banco/models/example/my_second_dbt_model.sql
+21:25:13.981550 [debug]: Finished rendering [  0.00s] model ds_dbt_banco.my_first_dbt_model [success]
+21:25:13.981583 [info ]: Started analyzing (2 nodes)
+21:25:13.981594 [debug]: Started analyzing model ds_dbt_banco.my_first_dbt_model
+21:25:13.981618 [debug]: Finished rendering [  0.00s] model ds_dbt_banco.my_second_dbt_model [success]
+21:25:13.981627 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+21:25:13.981634 [debug]: Started analyzing model ds_dbt_banco.my_second_dbt_model
+21:25:13.981801 [debug]: Finished analyzing [  0.00s] model ds_dbt_banco.my_first_dbt_model [success]
+21:25:13.981863 [info ]:  Succeeded [-------] model ds_dbt_banco.my_first_dbt_model (table)
+21:25:13.981886 [debug]: Finished analyzing [  0.00s] model ds_dbt_banco.my_second_dbt_model [success]
+21:25:13.981895 [info ]: Finished analyzing [  0.00s] (2 nodes, 0 skipped, 0 errors)
+21:25:13.981900 [info ]:  Succeeded [-------] model ds_dbt_banco.my_second_dbt_model (table)
+21:25:13.985365 [info ]: Started scheduling
+21:25:13.985401 [info ]: Finished scheduling [  0.00s]
+21:25:13.985950 [info ]: Cached model count updated: 2 models (accurate)
+==================== 2026-07-23T21:26:25.159296Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-07-23T21:26:25.159407Z | b81429fe-6cea-4619-8be3-48237bdc029b ====================
+21:26:25.159428 [info ]: Starting dbt LSP server
+21:26:25.159447 [info ]: Connecting to LSP client on port 46671
+21:26:25.159674 [info ]: Successfully connected to LSP client
+21:26:25.159692 [info ]: Creating LSP service...
+21:26:25.160482 [info ]: Creating LSP server...
+21:26:25.160496 [info ]: Starting LSP server...
+21:26:27.450894 [info ]: Loading profiles.yml
+21:26:27.611772 [info ]: Waiting for lease on 'target' directory
+21:26:27.890396 [info ]: Started loading project
+21:26:27.890715 [info ]: Loading profiles.yml
+21:26:27.896307 [info ]: Loading packages.yml
+21:26:27.896399 [debug]:    Started loading packages
+21:26:27.897860 [debug]:     Loaded [  0.00s] packages
+21:26:27.898499 [info ]: Finished loading project [  0.01s]
+21:26:27.898805 [info ]: Started parsing
+21:26:27.933764 [debug]: Finished parsing models/example/schema.yml [  0.00s]
+21:26:27.934722 [debug]: Finished parsing models/example/my_first_dbt_model.sql [  0.00s]
+21:26:27.935368 [debug]: Finished parsing models/example/my_second_dbt_model.sql [  0.00s]
+21:26:27.937992 [info ]: Finished parsing [  0.04s]
+21:26:27.938126 [info ]: Cached model count updated: 2 models (estimate)
+21:26:27.938139 [info ]: Cached model count updated: 2 models (accurate)
+21:26:27.938176 [info ]: Started scheduling
+21:26:27.938227 [info ]: Finished scheduling [  0.00s]
+21:26:27.938237 [debug]: Compilation - 0 nodes selected: {}
+21:26:27.938266 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+21:26:27.938281 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+21:26:27.938287 [info ]: Started scheduling
+21:26:27.938319 [info ]: Finished scheduling [  0.00s]
+21:26:27.944371 [debug]: No platform credentials found, skipping remote license
+21:26:27.963928 [info ]: Started building task graph
+21:26:27.963967 [info ]: Finished building task graph [  0.00s]
+21:26:27.968637 [info ]: Started scheduling
+21:26:27.968676 [info ]: Finished scheduling [  0.00s]
+21:26:27.969073 [info ]: Cached model count updated: 2 models (accurate)
+21:26:30.820457 [info ]: Started loading project
+21:26:30.820664 [info ]: Loading profiles.yml
+21:26:30.848452 [info ]: Cached model count updated: 2 models (estimate)
+21:26:30.848479 [info ]: Cached model count updated: 2 models (accurate)
+21:26:30.848497 [info ]: Started scheduling
+21:26:30.848540 [info ]: Finished scheduling [  0.00s]
+21:26:30.848556 [debug]: Compilation - 2 nodes selected: {"model.mi_proyecto_banco.my_first_dbt_model", "model.mi_proyecto_banco.my_second_dbt_model"}
+21:26:30.874551 [info ]: Started building task graph
+21:26:30.874628 [info ]: Finished building task graph [  0.00s]
+21:26:30.875618 [info ]: Started rendering (2 nodes)
+21:26:30.875644 [info ]: Started model ds_dbt_banco.my_second_dbt_model
+21:26:30.875657 [debug]: Started rendering model ds_dbt_banco.my_second_dbt_model
+21:26:30.875682 [info ]: Started model ds_dbt_banco.my_first_dbt_model
+21:26:30.875690 [debug]: Started rendering model ds_dbt_banco.my_first_dbt_model
+21:26:30.875802 [info ]: Finished loading project [  0.06s]
+21:26:30.876295 [debug]: Compiled SQL for node model.mi_proyecto_banco.my_first_dbt_model at target/.lsp/compiled/mi_proyecto_banco/models/example/my_first_dbt_model.sql
+21:26:30.876311 [debug]: Compiled SQL for node model.mi_proyecto_banco.my_second_dbt_model at target/.lsp/compiled/mi_proyecto_banco/models/example/my_second_dbt_model.sql
+21:26:30.876380 [debug]: Finished rendering [  0.00s] model ds_dbt_banco.my_first_dbt_model [success]
+21:26:30.876425 [info ]: Started analyzing (2 nodes)
+21:26:30.876436 [debug]: Started analyzing model ds_dbt_banco.my_first_dbt_model
+21:26:30.876460 [debug]: Finished rendering [  0.00s] model ds_dbt_banco.my_second_dbt_model [success]
+21:26:30.876469 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+21:26:30.876479 [debug]: Started analyzing model ds_dbt_banco.my_second_dbt_model
+21:26:30.879600 [debug]: Finished analyzing [  0.00s] model ds_dbt_banco.my_first_dbt_model [success]
+21:26:30.879619 [info ]:  Succeeded [  0.00s] model ds_dbt_banco.my_first_dbt_model (table)
+21:26:30.880049 [debug]: Finished analyzing [  0.00s] model ds_dbt_banco.my_second_dbt_model [success]
+21:26:30.880068 [info ]: Finished analyzing [  0.00s] (2 nodes, 0 skipped, 0 errors)
+21:26:30.880077 [info ]:  Succeeded [  0.00s] model ds_dbt_banco.my_second_dbt_model (table)
+21:26:30.883720 [info ]: Started scheduling
+21:26:30.883759 [info ]: Finished scheduling [  0.00s]
+21:26:30.884379 [info ]: Cached model count updated: 2 models (accurate)
+==================== 2026-07-23T21:38:49.371890Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-07-23T21:38:49.371998Z | 6971060f-e5c0-4006-852d-78583367b751 ====================
+21:38:49.372020 [info ]: Starting dbt LSP server
+21:38:49.372043 [info ]: Connecting to LSP client on port 44601
+21:38:49.372220 [info ]: Successfully connected to LSP client
+21:38:49.372240 [info ]: Creating LSP service...
+21:38:49.373079 [info ]: Creating LSP server...
+21:38:49.373092 [info ]: Starting LSP server...
+21:38:50.210736 [info ]: Loading profiles.yml
+21:38:50.400526 [info ]: Waiting for lease on 'target' directory
+21:38:50.901995 [info ]: Started loading project
+21:38:50.902346 [info ]: Loading profiles.yml
+21:38:50.907980 [info ]: Loading packages.yml
+21:38:50.908068 [debug]:    Started loading packages
+21:38:50.909501 [debug]:     Loaded [  0.00s] packages
+21:38:50.910172 [info ]: Finished loading project [  0.01s]
+21:38:50.910469 [info ]: Started parsing
+21:38:50.945323 [debug]: Finished parsing models/example/schema.yml [  0.00s]
+21:38:50.946586 [debug]: Finished parsing models/example/my_first_dbt_model.sql [  0.00s]
+21:38:50.947301 [debug]: Finished parsing models/example/my_second_dbt_model.sql [  0.00s]
+21:38:50.949952 [info ]: Finished parsing [  0.04s]
+21:38:50.950084 [info ]: Cached model count updated: 2 models (estimate)
+21:38:50.950107 [info ]: Cached model count updated: 2 models (accurate)
+21:38:50.950151 [info ]: Started scheduling
+21:38:50.950208 [info ]: Finished scheduling [  0.00s]
+21:38:50.950221 [debug]: Compilation - 0 nodes selected: {}
+21:38:50.950245 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+21:38:50.950258 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+21:38:50.950266 [info ]: Started scheduling
+21:38:50.950296 [info ]: Finished scheduling [  0.00s]
+21:38:50.956470 [debug]: No platform credentials found, skipping remote license
+21:38:50.975821 [info ]: Started building task graph
+21:38:50.975858 [info ]: Finished building task graph [  0.00s]
+21:38:50.980445 [info ]: Started scheduling
+21:38:50.980483 [info ]: Finished scheduling [  0.00s]
+21:38:50.980902 [info ]: Cached model count updated: 2 models (accurate)
+21:38:54.850502 [info ]: Started loading project
+21:38:54.850755 [info ]: Loading profiles.yml
+21:38:54.874537 [info ]: Cached model count updated: 2 models (estimate)
+21:38:54.874561 [info ]: Cached model count updated: 2 models (accurate)
+21:38:54.874578 [info ]: Started scheduling
+21:38:54.874622 [info ]: Finished scheduling [  0.00s]
+21:38:54.874637 [debug]: Compilation - 2 nodes selected: {"model.mi_proyecto_banco.my_first_dbt_model", "model.mi_proyecto_banco.my_second_dbt_model"}
+21:38:54.894860 [info ]: Started building task graph
+21:38:54.894935 [info ]: Finished building task graph [  0.00s]
+21:38:54.895893 [info ]: Started rendering (2 nodes)
+21:38:54.895918 [info ]: Started model ds_dbt_banco.my_second_dbt_model
+21:38:54.895931 [debug]: Started rendering model ds_dbt_banco.my_second_dbt_model
+21:38:54.895956 [info ]: Started model ds_dbt_banco.my_first_dbt_model
+21:38:54.895964 [debug]: Started rendering model ds_dbt_banco.my_first_dbt_model
+21:38:54.895997 [info ]: Finished loading project [  0.05s]
+21:38:54.896584 [debug]: Compiled SQL for node model.mi_proyecto_banco.my_first_dbt_model at target/.lsp/compiled/mi_proyecto_banco/models/example/my_first_dbt_model.sql
+21:38:54.896584 [debug]: Compiled SQL for node model.mi_proyecto_banco.my_second_dbt_model at target/.lsp/compiled/mi_proyecto_banco/models/example/my_second_dbt_model.sql
+21:38:54.896680 [debug]: Finished rendering [  0.00s] model ds_dbt_banco.my_first_dbt_model [success]
+21:38:54.896739 [info ]: Started analyzing (2 nodes)
+21:38:54.896756 [debug]: Started analyzing model ds_dbt_banco.my_first_dbt_model
+21:38:54.896797 [debug]: Finished rendering [  0.00s] model ds_dbt_banco.my_second_dbt_model [success]
+21:38:54.896812 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+21:38:54.896827 [debug]: Started analyzing model ds_dbt_banco.my_second_dbt_model
+21:38:54.901718 [debug]: Finished analyzing [  0.00s] model ds_dbt_banco.my_second_dbt_model [success]
+21:38:54.901739 [info ]:  Succeeded [  0.00s] model ds_dbt_banco.my_second_dbt_model (table)
+21:38:54.901761 [debug]: Finished analyzing [  0.01s] model ds_dbt_banco.my_first_dbt_model [success]
+21:38:54.901771 [info ]: Finished analyzing [  0.01s] (2 nodes, 0 skipped, 0 errors)
+21:38:54.901776 [info ]:  Succeeded [  0.01s] model ds_dbt_banco.my_first_dbt_model (table)
+21:38:54.904939 [info ]: Started scheduling
+21:38:54.904976 [info ]: Finished scheduling [  0.00s]
+21:38:54.905546 [info ]: Cached model count updated: 2 models (accurate)
+==================== 2026-07-23T21:39:59.543137Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-07-23T21:39:59.543251Z | 2a19c087-b292-4804-b628-04ee3f977513 ====================
+21:39:59.543272 [info ]: Starting dbt LSP server
+21:39:59.543294 [info ]: Connecting to LSP client on port 43683
+21:39:59.543501 [info ]: Successfully connected to LSP client
+21:39:59.543520 [info ]: Creating LSP service...
+21:39:59.544365 [info ]: Creating LSP server...
+21:39:59.544380 [info ]: Starting LSP server...
+21:40:00.040695 [info ]: Loading profiles.yml
+21:40:00.440688 [info ]: Waiting for lease on 'target' directory
+21:40:00.680476 [info ]: Started loading project
+21:40:00.680800 [info ]: Loading profiles.yml
+21:40:00.686335 [info ]: Loading packages.yml
+21:40:00.686431 [debug]:    Started loading packages
+21:40:00.687936 [debug]:     Loaded [  0.00s] packages
+21:40:00.688573 [info ]: Finished loading project [  0.01s]
+21:40:00.688869 [info ]: Started parsing
+21:40:00.723363 [debug]: Finished parsing models/example/schema.yml [  0.00s]
+21:40:00.724285 [debug]: Finished parsing models/example/my_first_dbt_model.sql [  0.00s]
+21:40:00.724943 [debug]: Finished parsing models/example/my_second_dbt_model.sql [  0.00s]
+21:40:00.727595 [info ]: Finished parsing [  0.04s]
+21:40:00.727730 [info ]: Cached model count updated: 2 models (estimate)
+21:40:00.727741 [info ]: Cached model count updated: 2 models (accurate)
+21:40:00.727781 [info ]: Started scheduling
+21:40:00.727840 [info ]: Finished scheduling [  0.00s]
+21:40:00.727851 [debug]: Compilation - 0 nodes selected: {}
+21:40:00.727880 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+21:40:00.727894 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+21:40:00.727900 [info ]: Started scheduling
+21:40:00.727930 [info ]: Finished scheduling [  0.00s]
+21:40:00.733861 [debug]: No platform credentials found, skipping remote license
+21:40:00.753342 [info ]: Started building task graph
+21:40:00.753384 [info ]: Finished building task graph [  0.00s]
+21:40:00.757896 [info ]: Started scheduling
+21:40:00.757935 [info ]: Finished scheduling [  0.00s]
+21:40:00.758323 [info ]: Cached model count updated: 2 models (accurate)
+21:40:03.590997 [info ]: Started loading project
+21:40:03.591222 [info ]: Loading profiles.yml
+21:40:03.614856 [info ]: Cached model count updated: 2 models (estimate)
+21:40:03.614883 [info ]: Cached model count updated: 2 models (accurate)
+21:40:03.614902 [info ]: Started scheduling
+21:40:03.614949 [info ]: Finished scheduling [  0.00s]
+21:40:03.614965 [debug]: Compilation - 2 nodes selected: {"model.mi_proyecto_banco.my_first_dbt_model", "model.mi_proyecto_banco.my_second_dbt_model"}
+21:40:03.635400 [info ]: Started building task graph
+21:40:03.635481 [info ]: Finished building task graph [  0.00s]
+21:40:03.636499 [info ]: Started rendering (2 nodes)
+21:40:03.636526 [info ]: Started model ds_dbt_banco.my_second_dbt_model
+21:40:03.636540 [debug]: Started rendering model ds_dbt_banco.my_second_dbt_model
+21:40:03.636565 [info ]: Started model ds_dbt_banco.my_first_dbt_model
+21:40:03.636574 [debug]: Started rendering model ds_dbt_banco.my_first_dbt_model
+21:40:03.636595 [info ]: Finished loading project [  0.05s]
+21:40:03.637196 [debug]: Compiled SQL for node model.mi_proyecto_banco.my_second_dbt_model at target/.lsp/compiled/mi_proyecto_banco/models/example/my_second_dbt_model.sql
+21:40:03.637196 [debug]: Compiled SQL for node model.mi_proyecto_banco.my_first_dbt_model at target/.lsp/compiled/mi_proyecto_banco/models/example/my_first_dbt_model.sql
+21:40:03.637292 [debug]: Finished rendering [  0.00s] model ds_dbt_banco.my_second_dbt_model [success]
+21:40:03.637345 [info ]: Started analyzing (2 nodes)
+21:40:03.637357 [debug]: Started analyzing model ds_dbt_banco.my_second_dbt_model
+21:40:03.637384 [debug]: Finished rendering [  0.00s] model ds_dbt_banco.my_first_dbt_model [success]
+21:40:03.637393 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+21:40:03.637399 [debug]: Started analyzing model ds_dbt_banco.my_first_dbt_model
+21:40:03.641091 [debug]: Finished analyzing [  0.00s] model ds_dbt_banco.my_first_dbt_model [success]
+21:40:03.641114 [info ]:  Succeeded [  0.00s] model ds_dbt_banco.my_first_dbt_model (table)
+21:40:03.641564 [debug]: Finished analyzing [  0.00s] model ds_dbt_banco.my_second_dbt_model [success]
+21:40:03.641586 [info ]: Finished analyzing [  0.00s] (2 nodes, 0 skipped, 0 errors)
+21:40:03.641596 [info ]:  Succeeded [  0.00s] model ds_dbt_banco.my_second_dbt_model (table)
+21:40:03.645074 [info ]: Started scheduling
+21:40:03.645116 [info ]: Finished scheduling [  0.00s]
+21:40:03.645624 [info ]: Cached model count updated: 2 models (accurate)
+21:41:48.930417 [info ]: Started loading project
+21:41:48.930654 [info ]: Loading profiles.yml
+21:41:48.956590 [info ]: Finished loading project [  0.03s]
+21:41:48.957023 [info ]: Cached model count updated: 2 models (accurate)
+21:41:50.640507 [info ]: Started loading project
+21:41:50.640748 [info ]: Loading profiles.yml
+21:41:50.664611 [info ]: Cached model count updated: 2 models (estimate)
+21:41:50.664639 [info ]: Cached model count updated: 2 models (accurate)
+21:41:50.664658 [info ]: Started scheduling
+21:41:50.664706 [info ]: Finished scheduling [  0.00s]
+21:41:50.664723 [debug]: Compilation - 2 nodes selected: {"model.mi_proyecto_banco.my_first_dbt_model", "model.mi_proyecto_banco.my_second_dbt_model"}
+21:41:50.686383 [info ]: Started building task graph
+21:41:50.686441 [info ]: Finished building task graph [  0.00s]
+21:41:50.687399 [info ]: Started rendering (2 nodes)
+21:41:50.687426 [info ]: Started model ds_dbt_banco.my_second_dbt_model
+21:41:50.687439 [debug]: Started rendering model ds_dbt_banco.my_second_dbt_model
+21:41:50.687467 [info ]: Started model ds_dbt_banco.my_first_dbt_model
+21:41:50.687475 [debug]: Started rendering model ds_dbt_banco.my_first_dbt_model
+21:41:50.687509 [info ]: Finished loading project [  0.05s]
+21:41:50.687708 [debug]: Compiled SQL for node model.mi_proyecto_banco.my_first_dbt_model at target/.lsp/compiled/mi_proyecto_banco/models/example/my_first_dbt_model.sql
+21:41:50.687708 [debug]: Compiled SQL for node model.mi_proyecto_banco.my_second_dbt_model at target/.lsp/compiled/mi_proyecto_banco/models/example/my_second_dbt_model.sql
+21:41:50.687779 [debug]: Finished rendering [  0.00s] model ds_dbt_banco.my_first_dbt_model [success]
+21:41:50.687808 [info ]: Started analyzing (2 nodes)
+21:41:50.687822 [debug]: Started analyzing model ds_dbt_banco.my_first_dbt_model
+21:41:50.687846 [debug]: Finished rendering [  0.00s] model ds_dbt_banco.my_second_dbt_model [success]
+21:41:50.687864 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+21:41:50.687876 [debug]: Started analyzing model ds_dbt_banco.my_second_dbt_model
+21:41:50.688009 [debug]: Finished analyzing [  0.00s] model ds_dbt_banco.my_first_dbt_model [success]
+21:41:50.688024 [info ]:  Succeeded [-------] model ds_dbt_banco.my_first_dbt_model (table)
+21:41:50.688074 [debug]: Finished analyzing [  0.00s] model ds_dbt_banco.my_second_dbt_model [success]
+21:41:50.688086 [info ]: Finished analyzing [  0.00s] (2 nodes, 0 skipped, 0 errors)
+21:41:50.688092 [info ]:  Succeeded [-------] model ds_dbt_banco.my_second_dbt_model (table)
+21:41:50.692221 [info ]: Started scheduling
+21:41:50.692397 [info ]: Finished scheduling [  0.00s]
+21:41:50.693228 [info ]: Cached model count updated: 2 models (accurate)
+21:42:49.870459 [info ]: Started loading project
+21:42:49.870710 [info ]: Loading profiles.yml
+21:42:49.892306 [info ]: Finished loading project [  0.02s]
+21:42:49.892718 [info ]: Cached model count updated: 2 models (accurate)
+21:42:51.331074 [info ]: Cached model count updated: 2 models (accurate)
+21:42:51.750476 [info ]: Started loading project
+21:42:51.750736 [info ]: Loading profiles.yml
+21:42:51.776645 [info ]: Finished loading project [  0.03s]
+21:42:51.777074 [info ]: Cached model count updated: 2 models (accurate)
+21:42:55.000438 [info ]: Started loading project
+21:42:55.000686 [info ]: Loading profiles.yml
+21:42:55.024690 [info ]: Cached model count updated: 2 models (estimate)
+21:42:55.024717 [info ]: Cached model count updated: 2 models (accurate)
+21:42:55.024736 [info ]: Started scheduling
+21:42:55.024781 [info ]: Finished scheduling [  0.00s]
+21:42:55.024797 [debug]: Compilation - 2 nodes selected: {"model.mi_proyecto_banco.my_first_dbt_model", "model.mi_proyecto_banco.my_second_dbt_model"}
+21:42:55.045074 [info ]: Started building task graph
+21:42:55.045132 [info ]: Finished building task graph [  0.00s]
+21:42:55.046111 [info ]: Started rendering (2 nodes)
+21:42:55.046135 [info ]: Started model ds_dbt_banco.my_second_dbt_model
+21:42:55.046146 [debug]: Started rendering model ds_dbt_banco.my_second_dbt_model
+21:42:55.046171 [info ]: Started model ds_dbt_banco.my_first_dbt_model
+21:42:55.046179 [debug]: Started rendering model ds_dbt_banco.my_first_dbt_model
+21:42:55.046212 [info ]: Finished loading project [  0.05s]
+21:42:55.046441 [debug]: Compiled SQL for node model.mi_proyecto_banco.my_second_dbt_model at target/.lsp/compiled/mi_proyecto_banco/models/example/my_second_dbt_model.sql
+21:42:55.046461 [debug]: Compiled SQL for node model.mi_proyecto_banco.my_first_dbt_model at target/.lsp/compiled/mi_proyecto_banco/models/example/my_first_dbt_model.sql
+21:42:55.046492 [debug]: Finished rendering [  0.00s] model ds_dbt_banco.my_second_dbt_model [success]
+21:42:55.046513 [info ]: Started analyzing (2 nodes)
+21:42:55.046521 [debug]: Started analyzing model ds_dbt_banco.my_second_dbt_model
+21:42:55.046534 [debug]: Finished rendering [  0.00s] model ds_dbt_banco.my_first_dbt_model [success]
+21:42:55.046541 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+21:42:55.046547 [debug]: Started analyzing model ds_dbt_banco.my_first_dbt_model
+21:42:55.046688 [debug]: Finished analyzing [  0.00s] model ds_dbt_banco.my_first_dbt_model [success]
+21:42:55.046699 [info ]:  Succeeded [-------] model ds_dbt_banco.my_first_dbt_model (table)
+21:42:55.046749 [debug]: Finished analyzing [  0.00s] model ds_dbt_banco.my_second_dbt_model [success]
+21:42:55.046767 [info ]: Finished analyzing [  0.00s] (2 nodes, 0 skipped, 0 errors)
+21:42:55.046773 [info ]:  Succeeded [-------] model ds_dbt_banco.my_second_dbt_model (table)
+21:42:55.050361 [info ]: Started scheduling
+21:42:55.050401 [info ]: Finished scheduling [  0.00s]
+21:42:55.051009 [info ]: Cached model count updated: 2 models (accurate)
+21:44:56.530562 [info ]: Loading profiles.yml
+21:44:57.160445 [info ]: Started loading project
+21:44:57.160659 [info ]: Loading profiles.yml
+21:44:57.186432 [info ]: Finished loading project [  0.03s]
+21:44:57.186912 [info ]: Cached model count updated: 2 models (accurate)
+21:44:59.840640 [info ]: Started loading project
+21:44:59.840855 [info ]: Loading profiles.yml
+21:44:59.860437 [info ]: Cached model count updated: 2 models (estimate)
+21:44:59.860460 [info ]: Cached model count updated: 2 models (accurate)
+21:44:59.860477 [info ]: Started scheduling
+21:44:59.860524 [info ]: Finished scheduling [  0.00s]
+21:44:59.860540 [debug]: Compilation - 2 nodes selected: {"model.mi_proyecto_banco.my_first_dbt_model", "model.mi_proyecto_banco.my_second_dbt_model"}
+21:44:59.881674 [info ]: Started building task graph
+21:44:59.881730 [info ]: Finished building task graph [  0.00s]
+21:44:59.882712 [info ]: Started rendering (2 nodes)
+21:44:59.882739 [info ]: Started model ds_dbt_banco.my_second_dbt_model
+21:44:59.882752 [debug]: Started rendering model ds_dbt_banco.my_second_dbt_model
+21:44:59.882777 [info ]: Started model ds_dbt_banco.my_first_dbt_model
+21:44:59.882786 [debug]: Started rendering model ds_dbt_banco.my_first_dbt_model
+21:44:59.882813 [info ]: Finished loading project [  0.04s]
+21:44:59.883008 [debug]: Compiled SQL for node model.mi_proyecto_banco.my_second_dbt_model at target/.lsp/compiled/mi_proyecto_banco/models/example/my_second_dbt_model.sql
+21:44:59.883057 [debug]: Compiled SQL for node model.mi_proyecto_banco.my_first_dbt_model at target/.lsp/compiled/mi_proyecto_banco/models/example/my_first_dbt_model.sql
+21:44:59.883089 [debug]: Finished rendering [  0.00s] model ds_dbt_banco.my_second_dbt_model [success]
+21:44:59.883121 [info ]: Started analyzing (2 nodes)
+21:44:59.883132 [debug]: Started analyzing model ds_dbt_banco.my_second_dbt_model
+21:44:59.883158 [debug]: Finished rendering [  0.00s] model ds_dbt_banco.my_first_dbt_model [success]
+21:44:59.883167 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+21:44:59.883174 [debug]: Started analyzing model ds_dbt_banco.my_first_dbt_model
+21:44:59.883330 [debug]: Finished analyzing [  0.00s] model ds_dbt_banco.my_first_dbt_model [success]
+21:44:59.883343 [info ]:  Succeeded [-------] model ds_dbt_banco.my_first_dbt_model (table)
+21:44:59.883415 [debug]: Finished analyzing [  0.00s] model ds_dbt_banco.my_second_dbt_model [success]
+21:44:59.883438 [info ]: Finished analyzing [  0.00s] (2 nodes, 0 skipped, 0 errors)
+21:44:59.883450 [info ]:  Succeeded [-------] model ds_dbt_banco.my_second_dbt_model (table)
+21:44:59.887315 [info ]: Started scheduling
+21:44:59.887353 [info ]: Finished scheduling [  0.00s]
+21:44:59.887878 [info ]: Cached model count updated: 2 models (accurate)
+21:55:00.050526 [info ]: Started loading project
+21:55:00.050762 [info ]: Loading profiles.yml
+21:55:00.053822 [info ]: Started loading project
+21:55:00.053982 [info ]: Loading profiles.yml
+21:55:00.054003 [info ]: Finished loading project [  0.00s]
+21:55:00.058938 [info ]: Loading packages.yml
+21:55:00.058996 [debug]:    Started loading packages
+21:55:00.060290 [debug]:     Loaded [  0.00s] packages
+21:55:00.060837 [info ]: Finished loading project [  0.01s]
+21:55:00.061009 [info ]: Started parsing
+21:55:00.089343 [debug]: Finished parsing models/example/schema.yml [  0.00s]
+21:55:00.090235 [debug]: Finished parsing models/example/my_first_dbt_model.sql [  0.00s]
+21:55:00.090660 [debug]: Finished parsing models/example/my_second_dbt_model.sql [  0.00s]
+21:55:00.093028 [info ]: Finished parsing [  0.03s]
+21:55:00.093136 [info ]: Cached model count updated: 2 models (estimate)
+21:55:00.093149 [info ]: Cached model count updated: 2 models (accurate)
+21:55:00.093167 [info ]: Started scheduling
+21:55:00.093194 [info ]: Finished scheduling [  0.00s]
+21:55:00.093205 [debug]: Compilation - 0 nodes selected: {}
+21:55:00.093220 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+21:55:00.093234 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+21:55:00.093305 [info ]: Started scheduling
+21:55:00.093332 [info ]: Finished scheduling [  0.00s]
+21:55:00.113102 [info ]: Started building task graph
+21:55:00.113133 [info ]: Finished building task graph [  0.00s]
+21:55:00.117522 [info ]: Started scheduling
+21:55:00.117572 [info ]: Finished scheduling [  0.00s]
+21:55:00.119152 [info ]: Cached model count updated: 2 models (accurate)
+21:55:02.020790 [info ]: Started loading project
+21:55:02.021123 [info ]: Loading profiles.yml
+21:55:02.051497 [info ]: Cached model count updated: 2 models (estimate)
+21:55:02.051538 [info ]: Cached model count updated: 2 models (accurate)
+21:55:02.051562 [info ]: Started scheduling
+21:55:02.051628 [info ]: Finished scheduling [  0.00s]
+21:55:02.051651 [debug]: Compilation - 2 nodes selected: {"model.mi_proyecto_banco.my_first_dbt_model", "model.mi_proyecto_banco.my_second_dbt_model"}
+21:55:02.079930 [info ]: Started building task graph
+21:55:02.079985 [info ]: Finished building task graph [  0.00s]
+21:55:02.080961 [info ]: Started rendering (2 nodes)
+21:55:02.080990 [info ]: Started model ds_dbt_banco.my_second_dbt_model
+21:55:02.081003 [debug]: Started rendering model ds_dbt_banco.my_second_dbt_model
+21:55:02.081030 [info ]: Started model ds_dbt_banco.my_first_dbt_model
+21:55:02.081038 [debug]: Started rendering model ds_dbt_banco.my_first_dbt_model
+21:55:02.081182 [info ]: Finished loading project [  0.06s]
+21:55:02.081596 [debug]: Compiled SQL for node model.mi_proyecto_banco.my_second_dbt_model at target/.lsp/compiled/mi_proyecto_banco/models/example/my_second_dbt_model.sql
+21:55:02.081597 [debug]: Compiled SQL for node model.mi_proyecto_banco.my_first_dbt_model at target/.lsp/compiled/mi_proyecto_banco/models/example/my_first_dbt_model.sql
+21:55:02.081686 [debug]: Finished rendering [  0.00s] model ds_dbt_banco.my_second_dbt_model [success]
+21:55:02.081702 [info ]:  Succeeded [-------] model ds_dbt_banco.my_second_dbt_model (table1)
+21:55:02.081723 [debug]: Finished rendering [  0.00s] model ds_dbt_banco.my_first_dbt_model [success]
+21:55:02.081732 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+21:55:02.081749 [info ]: Started analyzing (1 nodes)
+21:55:02.081760 [debug]: Started analyzing model ds_dbt_banco.my_first_dbt_model
+21:55:02.082140 [debug]: Finished analyzing [  0.00s] model ds_dbt_banco.my_first_dbt_model [success]
+21:55:02.082153 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+21:55:02.082159 [info ]:  Succeeded [-------] model ds_dbt_banco.my_first_dbt_model (table)
+21:55:02.085622 [info ]: Started scheduling
+21:55:02.085660 [info ]: Finished scheduling [  0.00s]
+21:55:02.086160 [info ]: Cached model count updated: 2 models (accurate)
+21:55:05.260441 [info ]: Started loading project
+21:55:05.260694 [info ]: Loading profiles.yml
+21:55:05.264150 [info ]: Started loading project
+21:55:05.264312 [info ]: Loading profiles.yml
+21:55:05.264339 [info ]: Finished loading project [  0.00s]
+21:55:05.269294 [info ]: Loading packages.yml
+21:55:05.269352 [debug]:    Started loading packages
+21:55:05.270665 [debug]:     Loaded [  0.00s] packages
+21:55:05.271227 [info ]: Finished loading project [  0.01s]
+21:55:05.271402 [info ]: Started parsing
+21:55:05.304800 [debug]: Finished parsing models/example/schema.yml [  0.00s]
+21:55:05.305628 [debug]: Finished parsing models/example/my_first_dbt_model.sql [  0.00s]
+21:55:05.306008 [debug]: Finished parsing models/example/my_second_dbt_model.sql [  0.00s]
+21:55:05.308211 [info ]: Finished parsing [  0.04s]
+21:55:05.308312 [info ]: Cached model count updated: 2 models (estimate)
+21:55:05.308322 [info ]: Cached model count updated: 2 models (accurate)
+21:55:05.308334 [info ]: Started scheduling
+21:55:05.308361 [info ]: Finished scheduling [  0.00s]
+21:55:05.308370 [debug]: Compilation - 0 nodes selected: {}
+21:55:05.308387 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+21:55:05.308400 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+21:55:05.308406 [info ]: Started scheduling
+21:55:05.308430 [info ]: Finished scheduling [  0.00s]
+21:55:05.328114 [info ]: Started building task graph
+21:55:05.328146 [info ]: Finished building task graph [  0.00s]
+21:55:05.332421 [info ]: Started scheduling
+21:55:05.332478 [info ]: Finished scheduling [  0.00s]
+21:55:05.334578 [info ]: Cached model count updated: 2 models (accurate)
+21:55:07.260837 [info ]: Started loading project
+21:55:07.261131 [info ]: Loading profiles.yml
+21:55:07.290437 [info ]: Cached model count updated: 2 models (estimate)
+21:55:07.290469 [info ]: Cached model count updated: 2 models (accurate)
+21:55:07.290494 [info ]: Started scheduling
+21:55:07.290562 [info ]: Finished scheduling [  0.00s]
+21:55:07.290584 [debug]: Compilation - 2 nodes selected: {"model.mi_proyecto_banco.my_first_dbt_model", "model.mi_proyecto_banco.my_second_dbt_model"}
+21:55:07.323323 [info ]: Started building task graph
+21:55:07.323383 [info ]: Finished building task graph [  0.00s]
+21:55:07.324319 [info ]: Started rendering (2 nodes)
+21:55:07.324348 [info ]: Started model ds_dbt_banco.my_second_dbt_model
+21:55:07.324362 [debug]: Started rendering model ds_dbt_banco.my_second_dbt_model
+21:55:07.324387 [info ]: Started model ds_dbt_banco.my_first_dbt_model
+21:55:07.324395 [debug]: Started rendering model ds_dbt_banco.my_first_dbt_model
+21:55:07.324438 [info ]: Finished loading project [  0.06s]
+21:55:07.324932 [debug]: Compiled SQL for node model.mi_proyecto_banco.my_first_dbt_model at target/.lsp/compiled/mi_proyecto_banco/models/example/my_first_dbt_model.sql
+21:55:07.325030 [debug]: Finished rendering [  0.00s] model ds_dbt_banco.my_first_dbt_model [success]
+21:55:07.325070 [info ]: Started analyzing (2 nodes)
+21:55:07.325087 [debug]: Started analyzing model ds_dbt_banco.my_first_dbt_model
+21:55:07.325102 [debug]: Compiled SQL for node model.mi_proyecto_banco.my_second_dbt_model at target/.lsp/compiled/mi_proyecto_banco/models/example/my_second_dbt_model.sql
+21:55:07.325192 [debug]: Finished rendering [  0.00s] model ds_dbt_banco.my_second_dbt_model [success]
+21:55:07.325209 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+21:55:07.325226 [debug]: Started analyzing model ds_dbt_banco.my_second_dbt_model
+21:55:07.325478 [debug]: Finished analyzing [  0.00s] model ds_dbt_banco.my_first_dbt_model [success]
+21:55:07.325494 [info ]:  Succeeded [-------] model ds_dbt_banco.my_first_dbt_model (table)
+21:55:07.325693 [debug]: Finished analyzing [  0.00s] model ds_dbt_banco.my_second_dbt_model [success]
+21:55:07.325718 [info ]: Finished analyzing [  0.00s] (2 nodes, 0 skipped, 0 errors)
+21:55:07.325732 [info ]:  Succeeded [-------] model ds_dbt_banco.my_second_dbt_model (table)
+21:55:07.330981 [info ]: Started scheduling
+21:55:07.331030 [info ]: Finished scheduling [  0.00s]
+21:55:07.331911 [info ]: Cached model count updated: 2 models (accurate)
+21:58:42.680488 [info ]: Loading profiles.yml
+22:05:57.990740 [info ]: Started loading project
+22:05:57.990978 [info ]: Finished loading project [  0.00s]
+22:05:57.991149 [info ]: Cached model count updated: 2 models (accurate)
+22:05:59.800364 [info ]: Started loading project
+22:05:59.800603 [info ]: Finished loading project [  0.00s]
+22:05:59.800696 [info ]: Cached model count updated: 2 models (accurate)
+22:08:03.120620 [info ]: Started loading project
+22:08:03.120894 [info ]: Finished loading project [  0.00s]
+22:08:03.121006 [info ]: Cached model count updated: 2 models (accurate)
+22:08:04.850465 [info ]: Started loading project
+22:08:04.850685 [info ]: Finished loading project [  0.00s]
+22:08:04.850774 [info ]: Cached model count updated: 2 models (accurate)
+22:08:09.211983 [info ]: Started loading project
+22:08:09.212218 [info ]: Finished loading project [  0.00s]
+22:08:09.212325 [info ]: Cached model count updated: 2 models (accurate)
+22:08:11.030574 [info ]: Started loading project
+22:08:11.030804 [info ]: Finished loading project [  0.00s]
+22:08:11.030911 [info ]: Cached model count updated: 2 models (accurate)
+==================== 2026-07-23T22:17:06.545540Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-07-23T22:17:06.545659Z | 9c8f24e7-967d-42dd-9b85-ab5644ba6d2b ====================
+22:17:06.545679 [info ]: Starting dbt LSP server
+22:17:06.545699 [info ]: Connecting to LSP client on port 50671
+22:17:06.545922 [info ]: Successfully connected to LSP client
+22:17:06.545940 [info ]: Creating LSP service...
+22:17:06.546756 [info ]: Creating LSP server...
+22:17:06.546770 [info ]: Starting LSP server...
+22:17:08.430197 [info ]: Started loading project
+22:17:08.430803 [info ]: Loading profiles.yml
+22:17:08.436682 [debug]:    Started loading packages
+22:17:08.438129 [debug]:     Loaded [  0.00s] packages
+22:17:08.438763 [info ]: Finished loading project [  0.01s]
+22:17:08.439029 [info ]: Started parsing
+22:17:08.473391 [warn ]: [UnusedResourceConfigPath (dbt1097)]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mi_proyecto_banco.example
+22:17:08.474158 [info ]: Cached model count updated: 0 models (estimate)
+22:17:08.474172 [info ]: Cached model count updated: 0 models (accurate)
+22:17:08.474214 [info ]: Started scheduling
+22:17:08.474269 [info ]: Finished scheduling [  0.00s]
+22:17:08.474287 [debug]: Compilation - 0 nodes selected: {}
+22:17:08.474308 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+22:17:08.474318 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+22:17:08.474324 [info ]: Started scheduling
+22:17:08.474333 [info ]: Finished scheduling [  0.00s]
+22:17:08.480548 [debug]: No platform credentials found, skipping remote license
+22:17:08.501196 [info ]: Started building task graph
+22:17:08.501245 [info ]: Finished building task graph [  0.00s]
+22:17:08.506003 [info ]: Started scheduling
+22:17:08.506043 [info ]: Finished scheduling [  0.00s]
+22:17:08.506460 [info ]: Cached model count updated: 0 models (accurate)
+22:17:08.506482 [info ]: Finished parsing [  0.07s]
+22:17:11.260508 [info ]: Started loading project
+22:17:11.260768 [info ]: Loading profiles.yml
+22:17:11.285497 [info ]: Cached model count updated: 0 models (estimate)
+22:17:11.285520 [info ]: Cached model count updated: 0 models (accurate)
+22:17:11.285534 [info ]: Started scheduling
+22:17:11.285561 [info ]: Finished scheduling [  0.00s]
+22:17:11.285577 [debug]: Compilation - 0 nodes selected: {}
+22:17:11.285600 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+22:17:11.305793 [info ]: Started building task graph
+22:17:11.305829 [info ]: Finished building task graph [  0.00s]
+22:17:11.310216 [info ]: Started scheduling
+22:17:11.310252 [info ]: Finished scheduling [  0.00s]
+22:17:11.310523 [info ]: Finished loading project [  0.05s]
+22:17:11.310908 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-07-23T22:17:23.963663Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-07-23T22:17:23.963768Z | 998d4257-4edc-4723-994c-fb640e692683 ====================
+22:17:23.963788 [info ]: Starting dbt LSP server
+22:17:23.963810 [info ]: Connecting to LSP client on port 56269
+22:17:23.964004 [info ]: Successfully connected to LSP client
+22:17:23.964024 [info ]: Creating LSP service...
+22:17:23.964852 [info ]: Creating LSP server...
+22:17:23.964866 [info ]: Starting LSP server...
+22:17:24.540471 [info ]: Started loading project
+22:17:24.541070 [info ]: Loading profiles.yml
+22:17:24.546813 [debug]:    Started loading packages
+22:17:24.548236 [debug]:     Loaded [  0.00s] packages
+22:17:24.548929 [info ]: Finished loading project [  0.01s]
+22:17:24.549205 [info ]: Started parsing
+22:17:24.584179 [warn ]: [UnusedResourceConfigPath (dbt1097)]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mi_proyecto_banco.example
+22:17:24.584934 [info ]: Cached model count updated: 0 models (estimate)
+22:17:24.584947 [info ]: Cached model count updated: 0 models (accurate)
+22:17:24.584986 [info ]: Started scheduling
+22:17:24.585042 [info ]: Finished scheduling [  0.00s]
+22:17:24.585060 [debug]: Compilation - 0 nodes selected: {}
+22:17:24.585081 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+22:17:24.585091 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+22:17:24.585098 [info ]: Started scheduling
+22:17:24.585107 [info ]: Finished scheduling [  0.00s]
+22:17:24.590978 [debug]: No platform credentials found, skipping remote license
+22:17:24.610810 [info ]: Started building task graph
+22:17:24.610849 [info ]: Finished building task graph [  0.00s]
+22:17:24.615463 [info ]: Started scheduling
+22:17:24.615498 [info ]: Finished scheduling [  0.00s]
+22:17:24.615889 [info ]: Cached model count updated: 0 models (accurate)
+22:17:24.615908 [info ]: Finished parsing [  0.07s]
+22:17:27.520329 [info ]: Started loading project
+22:17:27.520573 [info ]: Loading profiles.yml
+22:17:27.545552 [info ]: Cached model count updated: 0 models (estimate)
+22:17:27.545585 [info ]: Cached model count updated: 0 models (accurate)
+22:17:27.545603 [info ]: Started scheduling
+22:17:27.545631 [info ]: Finished scheduling [  0.00s]
+22:17:27.545648 [debug]: Compilation - 0 nodes selected: {}
+22:17:27.545668 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+22:17:27.567021 [info ]: Started building task graph
+22:17:27.567065 [info ]: Finished building task graph [  0.00s]
+22:17:27.572578 [info ]: Started scheduling
+22:17:27.572633 [info ]: Finished scheduling [  0.00s]
+22:17:27.572976 [info ]: Finished loading project [  0.05s]
+22:17:27.573406 [info ]: Cached model count updated: 0 models (accurate)
