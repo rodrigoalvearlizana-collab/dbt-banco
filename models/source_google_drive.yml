@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: google_drive_sources
+    database: mi-proyecto-dbt-nube
+    schema: ds_dbt_banco
+    description: "Tablas externas creadas a partir de archivos almacenados en Google Drive."
+    tables:
+      - name: ext_transacciones_bancarias
+        description: "Datos de transacciones en formato CSV leídos directamente desde Google Drive."
+      - name: ext_clientes_banco
+        description: "Datos de clientes en formato TXT (delimitado por ;) leídos directamente desde Google Drive."

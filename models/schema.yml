@@ -1,0 +1,8 @@
+version: 2
+sources:
+  - name: google_drive_sources
+    database: mi-proyecto-dbt-nube
+    schema: ds_dbt_banco
+    tables:
+      - name: transacciones_bancarias
+      - name: clientes_banco

@@ -77,6 +77,20 @@ user:
       - https://www.googleapis.com/auth/drive
       - https://www.googleapis.com/auth/userinfo.email
       target_name: default
-      threads: 4
       type: bigquery
   target: default
+
+mi_proyecto_banco:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: mi-proyecto-dbt-nube
+      dataset: ds_dbt_banco
+      threads: 4
+      # ⚠️ CLAVE: Permiso explícito para leer Google Drive
+      scopes:
+        - https://www.googleapis.com/auth/drive
+        - https://www.googleapis.com/auth/bigquery
+        - https://www.googleapis.com/auth/drive
